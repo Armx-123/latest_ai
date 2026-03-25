@@ -14,7 +14,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+      - name: Clean and Install Deps
+        run: |
+          # Remove any potential conflicts
+          pip uninstall -y google-generativeai google-api-core googleapis-common-protos google
+          # Install the modern unified SDK
+          pip install --upgrade google-genai feedparser youtube-transcript-api
       - name: Install Deps
         run: pip install feedparser google-generativeai youtube-transcript-api
       - name: Run Script
