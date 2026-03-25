@@ -1,56 +1,60 @@
 import os
 import json
 import feedparser
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # --- Configuration ---
 RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+# The new SDK automatically looks for GEMINI_API_KEY in your env
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def get_transcript(video_id):
     try:
         lines = YouTubeTranscriptApi.get_transcript(video_id)
         return " ".join([line['text'] for line in lines])
     except Exception:
-        return "Transcript not available."
+        return "No transcript available."
 
 def analyze_with_gemini(title, description, transcript):
     prompt = f"""
-    You are an AI market analyst. Analyze this YouTube video data:
+    Analyze this AI news data:
     Title: {title}
     Description: {description}
     Transcript: {transcript}
 
-    Task:
-    1. Identify all AI tools/models mentioned.
-    2. Categorize them (e.g., 'Video Gen', 'LLM', 'AI Search').
-    3. Find their official links in the description.
-    4. Crucially: Determine if the creator claims a tool is "the new best," "better than [competitor]," or a "major breakthrough."
-
+    Task: Identify AI tools mentioned. Determine if they are 'best in class' or replacements for existing tech.
     Return a JSON list of objects:
     [
       {{
-        "category": "category name",
-        "name": "AI Model Name",
-        "link": "link to AI",
+        "category": "category",
+        "name": "Model Name",
+        "link": "url",
         "is_replacement": true/false,
-        "reasoning": "Briefly why it is better or what it does"
+        "reasoning": "why"
       }}
     ]
     """
-    response = model.generate_content(prompt, generation_config={"response_mime_type": "application_json"})
-    return json.loads(response.text)
+    
+    # NEW: Updated call structure for google-genai
+    response = client.models.generate_content(
+        model='gemini-2.0-flash', 
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            response_mime_type='application/json',
+        )
+    )
+    return response.parsed # The new SDK can auto-parse JSON if you use schemas, or use .text
 
-# --- Main Execution ---
 def run_pipeline():
-    # 1. Load State
-    with open('ai_models.json', 'r') as f:
-        data = json.load(f)
+    # Load current data
+    if os.path.exists('ai_models.json'):
+        with open('ai_models.json', 'r') as f:
+            data = json.load(f)
+    else:
+        data = {"last_processed_video_id": "", "categories": {}}
 
-    # 2. Check RSS
     feed = feedparser.parse(RSS_URL)
     if not feed.entries: return
     
@@ -58,21 +62,21 @@ def run_pipeline():
     v_id = latest_video.yt_videoid
     
     if v_id == data.get('last_processed_video_id'):
-        print("No new videos. Exiting.")
+        print("Everything is up to date.")
         return
 
-    print(f"New video detected: {latest_video.title}")
-    
-    # 3. Gather Context
+    print(f"Analyzing: {latest_video.title}")
     transcript = get_transcript(v_id)
-    analysis_results = analyze_with_gemini(latest_video.title, latest_video.description, transcript)
+    
+    # Analysis
+    raw_results = analyze_with_gemini(latest_video.title, latest_video.description, transcript)
+    
+    # The new SDK returns text you need to parse if not using a schema
+    analysis_results = json.loads(raw_results.text) if hasattr(raw_results, 'text') else raw_results
 
-    # 4. Update JSON with "Replacement Logic"
     for item in analysis_results:
         cat = item['category']
-        # Replace if: Category is new OR Gemini flagged it as a 'replacement' (better model)
         if cat not in data['categories'] or item.get('is_replacement'):
-            print(f"Updating category [{cat}] with {item['name']}")
             data['categories'][cat] = {
                 "name": item['name'],
                 "link": item['link'],
@@ -80,7 +84,6 @@ def run_pipeline():
                 "reasoning": item['reasoning']
             }
 
-    # 5. Save State
     data['last_processed_video_id'] = v_id
     with open('ai_models.json', 'w') as f:
         json.dump(data, f, indent=2)
