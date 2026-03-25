@@ -1,0 +1,11 @@
+{
+  "last_processed_video_id": "",
+  "categories": {
+    "AI Search": {
+      "name": "Perplexity",
+      "link": "https://perplexity.ai",
+      "video_ref": "initial",
+      "reasoning": "Baseline model."
+    }
+  }
+}
