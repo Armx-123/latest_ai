@@ -1,43 +1,23 @@
 import os
 import json
 import feedparser
-from google import genai
+from google.genai import Client  # Direct import to avoid namespace errors
 from google.genai import types
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # --- Configuration ---
 RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
-# The new SDK automatically looks for GEMINI_API_KEY in your env
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-
-def get_transcript(video_id):
-    try:
-        lines = YouTubeTranscriptApi.get_transcript(video_id)
-        return " ".join([line['text'] for line in lines])
-    except Exception:
-        return "No transcript available."
+# The client automatically picks up GEMINI_API_KEY from environment
+client = Client() 
 
 def analyze_with_gemini(title, description, transcript):
     prompt = f"""
-    Analyze this AI news data:
-    Title: {title}
-    Description: {description}
-    Transcript: {transcript}
-
-    Task: Identify AI tools mentioned. Determine if they are 'best in class' or replacements for existing tech.
-    Return a JSON list of objects:
-    [
-      {{
-        "category": "category",
-        "name": "Model Name",
-        "link": "url",
-        "is_replacement": true/false,
-        "reasoning": "why"
-      }}
-    ]
+    Analyze this AI news data. Title: {title}. Description: {description}. Transcript: {transcript}.
+    Identify AI tools. Return a JSON list: 
+    [{{"category": "...", "name": "...", "link": "...", "is_replacement": bool, "reasoning": "..."}}]
     """
     
-    # NEW: Updated call structure for google-genai
+    # Modern 2026 Call Structure
     response = client.models.generate_content(
         model='gemini-2.0-flash', 
         contents=prompt,
@@ -45,15 +25,15 @@ def analyze_with_gemini(title, description, transcript):
             response_mime_type='application/json',
         )
     )
-    return response.parsed # The new SDK can auto-parse JSON if you use schemas, or use .text
+    # The new SDK provides the text attribute directly
+    return json.loads(response.text)
 
 def run_pipeline():
-    # Load current data
-    if os.path.exists('ai_models.json'):
+    if not os.path.exists('ai_models.json'):
+        data = {"last_processed_video_id": "", "categories": {}}
+    else:
         with open('ai_models.json', 'r') as f:
             data = json.load(f)
-    else:
-        data = {"last_processed_video_id": "", "categories": {}}
 
     feed = feedparser.parse(RSS_URL)
     if not feed.entries: return
@@ -66,13 +46,15 @@ def run_pipeline():
         return
 
     print(f"Analyzing: {latest_video.title}")
-    transcript = get_transcript(v_id)
     
-    # Analysis
-    raw_results = analyze_with_gemini(latest_video.title, latest_video.description, transcript)
-    
-    # The new SDK returns text you need to parse if not using a schema
-    analysis_results = json.loads(raw_results.text) if hasattr(raw_results, 'text') else raw_results
+    # Transcript Logic
+    try:
+        lines = YouTubeTranscriptApi.get_transcript(v_id)
+        transcript = " ".join([line['text'] for line in lines])
+    except:
+        transcript = "No transcript."
+
+    analysis_results = analyze_with_gemini(latest_video.title, latest_video.description, transcript)
 
     for item in analysis_results:
         cat = item['category']
