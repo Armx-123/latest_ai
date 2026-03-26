@@ -27,10 +27,14 @@ def run_pipeline():
         with open(file_path, 'r') as f:
             try:
                 raw = json.load(f)
-                data = {"last_id": str(raw.get("last_id", "")), "categories": raw.get("categories", {})}
-            except: data = {"last_id": "", "categories": {}}
+                data = {
+                    "last_id": str(raw.get("last_id", "")), 
+                    "categories": raw.get("categories", {}),
+                    "last_updated_unix": raw.get("last_updated_unix", 0)
+                }
+            except: data = {"last_id": "", "categories": {}, "last_updated_unix": 0}
     else:
-        data = {"last_id": "", "categories": {}}
+        data = {"last_id": "", "categories": {}, "last_updated_unix": 0}
 
     # 2. CHECK RSS
     feed = feedparser.parse(RSS_URL)
@@ -63,7 +67,7 @@ def run_pipeline():
 
     payload = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1}}
 
-    # Pre-emptively update ID so we don't get stuck on a failed video
+    # Pre-emptively update ID to mark it as seen
     data["last_id"] = v_id
 
     try:
@@ -82,7 +86,8 @@ def run_pipeline():
                             "link": item['link'],
                             "reason": item['reason'],
                             "source": f"https://youtu.be/{v_id}",
-                            "date": time.strftime("%Y-%m-%d")
+                            "date": time.strftime("%Y-%m-%d"),
+                            "updated_at_unix": int(time.time())
                         }
             else:
                 print("No new open-source models found in this video.")
@@ -92,10 +97,13 @@ def run_pipeline():
     except Exception as e:
         print(f"Pipeline error: {e}")
 
-    # 4. SAVE (Always save to update last_id)
+    # 4. UPDATE GLOBAL TIMESTAMP & SAVE
+    # This ensures Git always has a change to commit when a new video is found
+    data["last_updated_unix"] = int(time.time())
+    
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
-    print("State saved to ai_models.json")
+    print(f"State saved to ai_models.json (Timestamp: {data['last_updated_unix']})")
 
 if __name__ == "__main__":
     run_pipeline()
