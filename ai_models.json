@@ -1,14 +1,4 @@
 {
-  "summary": "Error: Failed to fetch summary",
-  "showLicenseMeta": false,
-  "license": null,
-  "newIssuePath": "/Armx-123/latest_ai/issues/new",
-  "newDiscussionPath": null,
-  "codeownerInfo": {
-    "codeownerPath": null,
-    "ownedByCurrentUser": null,
-    "ownersForFile": null,
-    "ruleForPathLine": null
-  },
-  "last_processed_video_id": "U2hZFMVNSE0"
+  "last_processed_video_id": "",
+  "categories": {}
 }
