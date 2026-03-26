@@ -1,11 +1,13 @@
 {
-  "last_processed_video_id": "",
-  "categories": {
-    "AI Search": {
-      "name": "Perplexity",
-      "link": "https://perplexity.ai",
-      "video_ref": "initial",
-      "reasoning": "Baseline model."
-    }
+  "summary": "Error: Failed to fetch summary",
+  "showLicenseMeta": false,
+  "license": null,
+  "newIssuePath": "/Armx-123/latest_ai/issues/new",
+  "newDiscussionPath": null,
+  "codeownerInfo": {
+    "codeownerPath": null,
+    "ownedByCurrentUser": null,
+    "ownersForFile": null,
+    "ruleForPathLine": null
   }
 }
