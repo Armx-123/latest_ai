@@ -9,7 +9,16 @@ import re
 API_KEY = os.getenv("GEMINI_API_KEY")
 RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
 # We'll use v1 (stable) and gemini-1.5-flash for maximum compatibility
-API_URL = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={API_KEY}"
+import os
+
+# Option A: Current Stable (Recommended for 2026)
+GEMINI_MODEL = "gemini-2.5-flash" 
+
+# Option B: Always the Latest (Currently points to Gemini 3 Flash Preview)
+# GEMINI_MODEL = "gemini-flash-latest"
+
+# USE v1beta for maximum model support
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={API_KEY}"
 
 def extract_json_from_text(text):
     """
