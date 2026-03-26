@@ -1,19 +1,4 @@
 {
-  "last_processed_video_id": "U2hZFMVNSE0",
-  "categories": {
-    "AI Assistant / AI Platform": {
-      "name": "Genspark",
-      "link": "https://bit.ly/4uM3PLS",
-      "reason": "",
-      "updated_at": "2026-03-26",
-      "video": "https://youtu.be/U2hZFMVNSE0"
-    },
-    "AI Tool Directory / Job Board": {
-      "name": "AI-Search.io",
-      "link": "https://ai-search.io/",
-      "reason": "",
-      "updated_at": "2026-03-26",
-      "video": "https://youtu.be/U2hZFMVNSE0"
-    }
-  }
+  "last_processed_video_id": "",
+  "categories": {}
 }
