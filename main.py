@@ -1,115 +1,85 @@
 import os
-import re
-import time
 import json
+import time
 import requests
 import feedparser
+import re
 
 # --- Configuration ---
-RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
+# Ensure your GitHub Secret is named EXACTLY 'GEMINI_API_KEY'
 API_KEY = os.getenv("GEMINI_API_KEY")
-# Using 1.5-flash for stability and speed in automation
-GEMINI_MODEL = "gemini-1.5-flash" 
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={API_KEY}"
-
-def extract_video_id(url):
-    reg_exp = r"^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*"
-    match = re.match(reg_exp, url)
-    if match and len(match.group(7)) == 11:
-        return match.group(7)
-    return None
-
-def analyze_video_with_backoff(video_url, description):
-    """
-    Uses your requests logic to ask Gemini to analyze the AI models.
-    """
-    system_prompt = (
-        "You are an AI market analyst. Analyze the provided video content and description. "
-        "Extract a list of AI models mentioned. Categorize them. "
-        "Identify if any are claimed to be 'the new best' or a replacement for existing tech. "
-        "Return ONLY a JSON array of objects: "
-        "[{\"category\": \"...\", \"name\": \"...\", \"link\": \"...\", \"is_replacement\": bool, \"reasoning\": \"...\"}]"
-    )
-    
-    # We pass the description directly to ensure the AI has the source links
-    user_prompt = f"Analyze this video: {video_url}\nDescription links: {description}"
-
-    payload = {
-        "contents": [{"parts": [{"text": user_prompt}]}],
-        "systemInstruction": {"parts": [{"text": system_prompt}]},
-        "generationConfig": {"responseMimeType": "application_json"}
-    }
-
-    max_retries = 5
-    for attempt in range(max_retries + 1):
-        try:
-            response = requests.post(
-                API_URL,
-                headers={"Content-Type": "application/json"},
-                json=payload
-            )
-
-            if response.status_code == 200:
-                result = response.json()
-                try:
-                    raw_text = result['candidates'][0]['content']['parts'][0]['text']
-                    return json.loads(raw_text)
-                except (KeyError, IndexError, json.JSONDecodeError):
-                    return []
-            
-            if response.status_code in [429, 500, 502, 503, 504]:
-                time.sleep(2 ** attempt)
-                continue
-            
-            break
-        except requests.exceptions.RequestException:
-            time.sleep(2 ** attempt)
-            
-    return []
+RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
 
 def run_pipeline():
-    # 1. Load existing JSON
-    if os.path.exists('ai_models.json'):
-        with open('ai_models.json', 'r') as f:
-            data = json.load(f)
+    # 1. LOAD LOCAL FILE (Strictly local to avoid GitHub Web Junk)
+    file_path = 'ai_models.json'
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            try:
+                data = json.load(f)
+                # Force clean-up: if junk keys exist, remove them
+                data = {
+                    "last_processed_video_id": data.get("last_processed_video_id", ""),
+                    "categories": data.get("categories", {})
+                }
+            except:
+                data = {"last_processed_video_id": "", "categories": {}}
     else:
         data = {"last_processed_video_id": "", "categories": {}}
 
-    # 2. Check for new video
+    # 2. CHECK RSS
     feed = feedparser.parse(RSS_URL)
-    if not feed.entries:
-        return
+    if not feed.entries: return
     
-    latest_video = feed.entries[0]
-    v_id = extract_video_id(latest_video.link)
+    latest_v = feed.entries[0]
+    v_id = latest_v.yt_videoid if hasattr(latest_v, 'yt_videoid') else None
     
-    if v_id == data.get('last_processed_video_id'):
-        print("No new updates found.")
+    if not v_id or v_id == data["last_processed_video_id"]:
+        print("No new video. Skipping.")
         return
 
-    print(f"New video detected: {latest_video.title}")
+    print(f"Processing new video: {v_id}")
 
-    # 3. Analyze
-    analysis_results = analyze_video_with_backoff(latest_video.link, latest_video.description)
+    # 3. ASK GEMINI (Strict JSON Enforcement)
+    prompt = (
+        f"Video Title: {latest_v.title}\n"
+        f"Description: {latest_v.description}\n\n"
+        "Instructions: Extract AI tools from this text. Identify the category. "
+        "Return ONLY valid JSON in this format: "
+        "[{\"category\": \"string\", \"name\": \"string\", \"link\": \"string\", \"is_best\": bool, \"reason\": \"string\"}]"
+    )
 
-    # 4. Update Categories (Replacement Logic)
-    for item in analysis_results:
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application_json"}
+    }
+
+    try:
+        res = requests.post(API_URL, json=payload, timeout=30)
+        res_json = res.json()
+        ai_list = json.loads(res_json['candidates'][0]['content']['parts'][0]['text'])
+    except Exception as e:
+        print(f"Gemini Error: {e}")
+        return
+
+    # 4. UPDATE LOGIC
+    for item in ai_list:
         cat = item['category']
-        # Replace if: New category OR explicitly marked as a better replacement
-        if cat not in data['categories'] or item.get('is_replacement'):
-            print(f"Updating {cat} -> {item['name']}")
+        # If it's a new category OR Gemini says it's the 'best' (replacement)
+        if cat not in data['categories'] or item.get('is_best'):
             data['categories'][cat] = {
                 "name": item['name'],
                 "link": item['link'],
-                "updated_at": time.strftime("%Y-%m-%d"),
-                "video_source": latest_video.link,
-                "reasoning": item['reasoning']
+                "reason": item['reason'],
+                "source_video": f"https://youtu.be/{v_id}"
             }
 
-    # 5. Save State
-    data['last_processed_video_id'] = v_id
-    with open('ai_models.json', 'w') as f:
+    # 5. SAVE CLEAN DATA
+    data["last_processed_video_id"] = v_id
+    with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
+    print("Successfully updated ai_models.json")
 
 if __name__ == "__main__":
     run_pipeline()
