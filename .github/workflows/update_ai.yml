@@ -15,22 +15,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Clean and Install Deps
-        run: |
-          # Remove any potential conflicts
-          pip uninstall -y google-generativeai google-api-core googleapis-common-protos google
-          # Install the modern unified SDK
-          pip install --upgrade google-genai feedparser youtube-transcript-api
-      - name: Install Deps
-        run: pip install feedparser google-generativeai youtube-transcript-api
-      - name: Run Script
+      - name: Install Dependencies
+        run: pip install requests feedparser
+      - name: Run Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
-      - name: Commit Changes
+      - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add ai_models.json
-          git commit -m "Auto-update AI models from latest video" || exit 0
+          git commit -m "Automated update: Latest AI models" || exit 0
           git push
