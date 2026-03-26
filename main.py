@@ -1,74 +1,65 @@
+import time
 import os
-import json
-import feedparser
-from google.genai import Client  # Direct import to avoid namespace errors
+from google import genai
 from google.genai import types
-from youtube_transcript_api import YouTubeTranscriptApi
+from PIL import Image
 
-# --- Configuration ---
-RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
-# The client automatically picks up GEMINI_API_KEY from environment
-client = Client() 
+# 1. Initialize the Client
+client = genai.Client(api_key="YOUR_API_KEY")
 
-def analyze_with_gemini(title, description, transcript):
-    prompt = f"""
-    Analyze this AI news data. Title: {title}. Description: {description}. Transcript: {transcript}.
-    Identify AI tools. Return a JSON list: 
-    [{{"category": "...", "name": "...", "link": "...", "is_replacement": bool, "reasoning": "..."}}]
+def get_ui_prompt_with_retries(image_path, output_txt="ui_recreation_prompt.txt"):
     """
+    Analyzes a UI screenshot and saves the recreation prompt to a text file.
+    Includes exponential backoff to handle 429 Resource Exhausted errors.
+    """
+    max_retries = 5
+    img = Image.open(image_path)
     
-    # Modern 2026 Call Structure
-    response = client.models.generate_content(
-        model='gemini-2.0-flash', 
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type='application/json',
-        )
+    # Your specific UI Analysis Prompt
+    user_prompt = (
+        "Analyze this UI screenshot. Generate a high-fidelity image generation "
+        "prompt to recreate this design. Focus on layout, design system, and "
+        "UI elements."
     )
-    # The new SDK provides the text attribute directly
-    return json.loads(response.text)
-
-def run_pipeline():
-    if not os.path.exists('ai_models.json'):
-        data = {"last_processed_video_id": "", "categories": {}}
-    else:
-        with open('ai_models.json', 'r') as f:
-            data = json.load(f)
-
-    feed = feedparser.parse(RSS_URL)
-    if not feed.entries: return
     
-    latest_video = feed.entries[0]
-    v_id = latest_video.yt_videoid
-    
-    if v_id == data.get('last_processed_video_id'):
-        print("Everything is up to date.")
-        return
+    # System instruction to ensure clean output
+    sys_instr = "Output ONLY the image generation prompt. No conversational filler."
 
-    print(f"Analyzing: {latest_video.title}")
-    
-    # Transcript Logic
-    try:
-        lines = YouTubeTranscriptApi.get_transcript(v_id)
-        transcript = " ".join([line['text'] for line in lines])
-    except:
-        transcript = "No transcript."
+    for attempt in range(max_retries + 1):
+        try:
+            # Generate response
+            response = client.models.generate_content(
+                model="gemini-2.0-flash", # Best for free tier text-to-text
+                contents=[user_prompt, img],
+                config=types.GenerateContentConfig(
+                    system_instruction=sys_instr,
+                    temperature=0.2
+                )
+            )
 
-    analysis_results = analyze_with_gemini(latest_video.title, latest_video.description, transcript)
+            # Success: Save and return
+            prompt_text = response.text
+            with open(output_txt, "w", encoding="utf-8") as f:
+                f.write(prompt_text)
+            
+            print(f"Success! Prompt saved to {output_txt}")
+            return prompt_text
 
-    for item in analysis_results:
-        cat = item['category']
-        if cat not in data['categories'] or item.get('is_replacement'):
-            data['categories'][cat] = {
-                "name": item['name'],
-                "link": item['link'],
-                "video_ref": f"https://youtu.be/{v_id}",
-                "reasoning": item['reasoning']
-            }
-
-    data['last_processed_video_id'] = v_id
-    with open('ai_models.json', 'w') as f:
-        json.dump(data, f, indent=2)
+        except Exception as e:
+            # Check if the error is a Rate Limit (429)
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                if attempt < max_retries:
+                    # Exponential Backoff: 2, 4, 8, 16, 32 seconds
+                    delay = (2 ** (attempt + 1)) 
+                    print(f"Quota exceeded. Retrying in {delay} seconds... (Attempt {attempt+1}/{max_retries})")
+                    time.sleep(delay)
+                    continue
+            
+            # If it's a different error or we've run out of retries
+            print(f"Final Error: {e}")
+            return None
 
 if __name__ == "__main__":
-    run_pipeline()
+    # Path to your desktop/mobile/web UI screenshot
+    get_ui_prompt_with_retries("ui_screenshot.png")
