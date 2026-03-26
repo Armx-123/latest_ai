@@ -1,65 +1,63 @@
+import requests
+import re
 import time
+import json
 import os
-from google import genai
-from google.genai import types
-from PIL import Image
 
-# 1. Initialize the Client
-client = genai.Client(api_key="YOUR_API_KEY")
+# API Configuration
+API_KEY = "YOUR_API_KEY" 
+GEMINI_MODEL = "gemini-2.5-flash"
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={API_KEY}"
 
-def get_ui_prompt_with_retries(image_path, output_txt="ui_recreation_prompt.txt"):
-    """
-    Analyzes a UI screenshot and saves the recreation prompt to a text file.
-    Includes exponential backoff to handle 429 Resource Exhausted errors.
-    """
-    max_retries = 5
-    img = Image.open(image_path)
+def get_video_summary(video_url):
+    """Summarizes YouTube video using Gemini API with exponential backoff."""
+    reg_exp = r"^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*"
+    match = re.match(reg_exp, video_url)
+    video_id = match.group(7) if (match and len(match.group(7)) == 11) else None
     
-    # Your specific UI Analysis Prompt
-    user_prompt = (
-        "Analyze this UI screenshot. Generate a high-fidelity image generation "
-        "prompt to recreate this design. Focus on layout, design system, and "
-        "UI elements."
-    )
-    
-    # System instruction to ensure clean output
-    sys_instr = "Output ONLY the image generation prompt. No conversational filler."
+    if not video_id:
+        return "Error: Invalid URL"
 
-    for attempt in range(max_retries + 1):
+    payload = {
+        "contents": [{"parts": [{"text": f"Summarize this: https://www.youtube.com/watch?v={video_id}"}]}],
+        "systemInstruction": {"parts": [{"text": "You are an expert video analyst. Provide a concise summary."}]}
+    }
+
+    for attempt in range(6):
         try:
-            # Generate response
-            response = client.models.generate_content(
-                model="gemini-2.0-flash", # Best for free tier text-to-text
-                contents=[user_prompt, img],
-                config=types.GenerateContentConfig(
-                    system_instruction=sys_instr,
-                    temperature=0.2
-                )
-            )
-
-            # Success: Save and return
-            prompt_text = response.text
-            with open(output_txt, "w", encoding="utf-8") as f:
-                f.write(prompt_text)
-            
-            print(f"Success! Prompt saved to {output_txt}")
-            return prompt_text
-
+            response = requests.post(API_URL, headers={"Content-Type": "application/json"}, json=payload)
+            if response.status_code == 200:
+                return response.json()['candidates'][0]['content']['parts'][0]['text']
+            if response.status_code in [429, 500, 503]:
+                time.sleep(2 ** attempt)
         except Exception as e:
-            # Check if the error is a Rate Limit (429)
-            error_str = str(e)
-            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
-                if attempt < max_retries:
-                    # Exponential Backoff: 2, 4, 8, 16, 32 seconds
-                    delay = (2 ** (attempt + 1)) 
-                    print(f"Quota exceeded. Retrying in {delay} seconds... (Attempt {attempt+1}/{max_retries})")
-                    time.sleep(delay)
-                    continue
-            
-            # If it's a different error or we've run out of retries
-            print(f"Final Error: {e}")
-            return None
+            time.sleep(2 ** attempt)
+    return "Error: Failed to fetch summary"
+
+def update_ai_models_json(video_url, output_file="ai_models.json"):
+    """Generates summary and wraps it in your specific JSON structure."""
+    summary_content = get_video_summary(video_url)
+
+    # Building the exact structure you requested
+    data = {
+        "summary": summary_content,
+        "showLicenseMeta": False,
+        "license": None,
+        "newIssuePath": "/Armx-123/latest_ai/issues/new",
+        "newDiscussionPath": None,
+        "codeownerInfo": {
+            "codeownerPath": None,
+            "ownedByCurrentUser": None,
+            "ownersForFile": None,
+            "ruleForPathLine": None
+        }
+    }
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    
+    print(f"File '{output_file}' has been updated with the summary and metadata.")
 
 if __name__ == "__main__":
-    # Path to your desktop/mobile/web UI screenshot
-    get_ui_prompt_with_retries("ui_screenshot.png")
+    test_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    update_ai_models_json(test_url)
