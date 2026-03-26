@@ -8,111 +8,87 @@ import re
 # --- Configuration ---
 API_KEY = os.getenv("GEMINI_API_KEY")
 RSS_URL = "https://youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A"
-# We'll use v1 (stable) and gemini-1.5-flash for maximum compatibility
-import os
+# Using v1beta for widest 2026 model support
+MODEL = "gemini-1.5-flash" 
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
 
-# Option A: Current Stable (Recommended for 2026)
-GEMINI_MODEL = "gemini-2.5-flash" 
-
-# Option B: Always the Latest (Currently points to Gemini 3 Flash Preview)
-# GEMINI_MODEL = "gemini-flash-latest"
-
-# USE v1beta for maximum model support
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={API_KEY}"
-
-def extract_json_from_text(text):
-    """
-    Safely extracts a JSON array from a text string, 
-    even if the model includes conversational filler.
-    """
+def extract_json(text):
     try:
-        # Look for content between [ and ]
         match = re.search(r'\[\s*\{.*\}\s*\]', text, re.DOTALL)
-        if match:
-            return json.loads(match.group(0))
-        # Fallback: try to parse the whole string
-        return json.loads(text)
-    except Exception:
-        print(f"Failed to parse JSON from response: {text[:100]}...")
-        return []
+        return json.loads(match.group(0)) if match else []
+    except: return []
 
 def run_pipeline():
     file_path = 'ai_models.json'
     
-    # 1. Load and Sanitize Local Data
+    # 1. LOAD & CLEAN DATA
     if os.path.exists(file_path):
         with open(file_path, 'r') as f:
             try:
                 raw = json.load(f)
-                data = {
-                    "last_processed_video_id": str(raw.get("last_processed_video_id", "")),
-                    "categories": raw.get("categories", {})
-                }
-            except: data = {"last_processed_video_id": "", "categories": {}}
+                data = {"last_id": str(raw.get("last_id", "")), "categories": raw.get("categories", {})}
+            except: data = {"last_id": "", "categories": {}}
     else:
-        data = {"last_processed_video_id": "", "categories": {}}
+        data = {"last_id": "", "categories": {}}
 
-    # 2. Check RSS
+    # 2. CHECK RSS
     feed = feedparser.parse(RSS_URL)
     if not feed.entries: return
+    latest = feed.entries[0]
+    v_id = latest.yt_videoid if hasattr(latest, 'yt_videoid') else None
     
-    latest_v = feed.entries[0]
-    v_id = latest_v.yt_videoid if hasattr(latest_v, 'yt_videoid') else None
-    
-    if not v_id or v_id == data["last_processed_video_id"]:
-        print(f"Video {v_id} already handled.")
+    if not v_id or v_id == data["last_id"]:
+        print("Everything up to date.")
         return
 
-    print(f"Analyzing: {latest_v.title}")
+    print(f"Analyzing: {latest.title}")
 
-    # 3. Request (WITHOUT responseMimeType to avoid 400 error)
+    # 3. CONTEXTUAL PROMPT
+    # We send the current categories to Gemini so it knows what it's replacing
+    current_list = "\n".join([f"- {c}: {v['name']}" for c, v in data['categories'].items()])
+    
     prompt = (
-        f"You are a tech curator. Analyze the following video data.\n"
-        f"Title: {latest_v.title}\n"
-        f"Description: {latest_v.description}\n\n"
-        "Return a JSON list of AI tools mentioned. If a tool is a major new 'best' in its class, set is_better to true.\n"
-        "Format: [{\"category\": \"string\", \"name\": \"string\", \"link\": \"string\", \"is_better\": bool, \"reason\": \"string\"}]\n"
-        "Return ONLY the JSON array, no other text."
+        f"Video: {latest.title}\nDescription: {latest.description}\n\n"
+        f"CURRENT LEADERS:\n{current_list}\n\n"
+        "TASK:\n"
+        "1. Extract ONLY Open Source / Open Weight AI models (e.g. Llama, Mistral, Flux, etc.).\n"
+        "2. STRICTLY IGNORE: Proprietary models (GPT, Claude), sponsor links, affiliate links, and social media.\n"
+        "3. REPLACEMENT LOGIC: If a model in the video is a NEW 'best' or 'better variant' for a category, set 'is_better' to true.\n"
+        "4. If this is just an explainer video with no specific models to track, return [].\n\n"
+        "RETURN ONLY JSON: [{\"category\": \"...\", \"name\": \"...\", \"link\": \"...\", \"is_better\": bool, \"reason\": \"...\"}]"
     )
 
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.2 # Lower temperature = more consistent JSON
-        }
-    }
+    payload = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1}}
 
     try:
         res = requests.post(API_URL, json=payload, timeout=60)
-        if res.status_code != 200:
-            print(f"API Error: {res.status_code} - {res.text}")
-            return
-
-        response_data = res.json()
-        raw_text = response_data['candidates'][0]['content']['parts'][0]['text']
-        ai_list = extract_json_from_text(raw_text)
-
-        if not ai_list:
-            print("No AI models found in this video.")
+        if res.status_code != 200: return
         
-        for item in ai_list:
-            cat = item.get('category', 'Misc')
-            if cat not in data['categories'] or item.get('is_better'):
-                data['categories'][cat] = {
-                    "name": item['name'],
-                    "link": item['link'],
-                    "reason": item['reason'],
-                    "updated_at": time.strftime("%Y-%m-%d"),
-                    "video": f"https://youtu.be/{v_id}"
-                }
+        raw_text = res.json()['candidates'][0]['content']['parts'][0]['text']
+        new_models = extract_json(raw_text)
 
-        data["last_processed_video_id"] = v_id
+        if not new_models:
+            print("No relevant Open Source models found. Skipping update.")
+            data["last_id"] = v_id # Still mark as processed so we don't check again
+        else:
+            for item in new_models:
+                cat = item.get('category', 'Misc')
+                # Replace if: New category OR is_better flag is true
+                if cat not in data['categories'] or item.get('is_better'):
+                    print(f"Updating {cat} to {item['name']}")
+                    data['categories'][cat] = {
+                        "name": item['name'],
+                        "link": item['link'],
+                        "reason": item['reason'],
+                        "source": f"https://youtu.be/{v_id}"
+                    }
+            data["last_id"] = v_id
+
         with open(file_path, 'w') as f:
             json.dump(data, f, indent=2)
-        print("Success: ai_models.json updated.")
 
     except Exception as e:
-        print(f"Error in pipeline: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     run_pipeline()
