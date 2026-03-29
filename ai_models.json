@@ -1,5 +1,110 @@
 {
-  "last_id": "U2hZFMVNSE0",
-  "categories": {},
-  "last_updated_unix": 1774552370
+  "last_id": "6Il0CJx9yU8",
+  "categories": {
+    "Image Restoration": {
+      "name": "Real Restorer",
+      "link": "https://yfyang007.github.io/RealRestorer/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Human Generation/Animation": {
+      "name": "daVinci MagiHuman",
+      "link": "https://github.com/GAIR-NLP/daVinci-MagiHuman",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Audio Generation/Manipulation": {
+      "name": "PrismAudio",
+      "link": "https://prismaudio-project.github.io/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "3D Gaussian Splatting": {
+      "name": "RetimeGS",
+      "link": "https://william-wang2.github.io/RetimeGS/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "AI Planning/Agents": {
+      "name": "ActionPlan",
+      "link": "https://coral79.github.io/ActionPlan/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "AI Agents/World Simulation": {
+      "name": "WorldAgents",
+      "link": "https://ziyaerkoc.com/worldagents/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Video to 3D World": {
+      "name": "Video to World",
+      "link": "https://lukashoel.github.io/video_to_world/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Video Generation/Editing": {
+      "name": "LumosX",
+      "link": "https://jiazheng-xing.github.io/lumosx-home/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Image/Video Enhancement": {
+      "name": "RealMaster",
+      "link": "https://danacohen95.github.io/RealMaster/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Neural Volume Rendering": {
+      "name": "LagerNVS",
+      "link": "https://szymanowiczs.github.io/lagernvs",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Motion Generation": {
+      "name": "Pulse of Motion",
+      "link": "https://xiangbogaobarry.github.io/Pulse-of-Motion/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "Flow-based Models": {
+      "name": "MegaFlow",
+      "link": "https://kristen-z.github.io/projects/megaflow/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    },
+    "AI Tools/Suite": {
+      "name": "CUA Suite",
+      "link": "https://cua-suite.github.io/",
+      "reason": "No explicit mention of being the 'best' or 'latest version' in its category.",
+      "source": "https://youtu.be/6Il0CJx9yU8",
+      "date": "2026-03-29",
+      "updated_at_unix": 1774768160
+    }
+  },
+  "last_updated_unix": 1774768160
 }
