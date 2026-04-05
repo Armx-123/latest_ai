@@ -1,5 +1,5 @@
 {
-  "last_id": "2IfAVV7ewO0",
+  "last_id": "o5rGuknRw2A",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -104,7 +104,135 @@
       "source": "https://youtu.be/6Il0CJx9yU8",
       "date": "2026-03-29",
       "updated_at_unix": 1774768160
+    },
+    "Large Language Model (LLM)": {
+      "name": "Gemma 4",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "reason": "It is a new version (Gemma 4) of Google's open-source model family.",
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Generative AI Model": {
+      "name": "Void",
+      "link": "https://void-model.github.io/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Image/Video Rendering": {
+      "name": "Renderer",
+      "link": "https://alaya-studio.github.io/renderer/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "AI Search/Retrieval": {
+      "name": "GenSearcher",
+      "link": "https://gen-searcher.vercel.app/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Dialogue System / Token Manipulation": {
+      "name": "TokenDial",
+      "link": "https://tokendial.github.io/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Audio Generation/Processing": {
+      "name": "LongCat AudioDiT",
+      "link": "https://github.com/meituan-longcat/LongCat-AudioDiT",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Computer Vision": {
+      "name": "SeeThrough",
+      "link": "https://github.com/shitagaki-lab/see-through",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Video World Models": {
+      "name": "Hybrid Memory in Video World Models",
+      "link": "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "On-device Image Generation": {
+      "name": "DreamLite",
+      "link": "https://carlofkl.github.io/dreamlite/",
+      "reason": "Mentioned in the video title as enabling 'image gen on phone', indicating a significant advancement for on-device image generation.",
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Image Design/Generation": {
+      "name": "PSDesigner",
+      "link": "https://henghuiding.com/PSDesigner/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Multimodal Large Language Model (LLM)": {
+      "name": "Qwen 3.6",
+      "link": "https://qwen.ai/blog?id=qwen3.6",
+      "reason": "It is a new version (3.6) of the Qwen model family.",
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Voice/Audio Generation": {
+      "name": "OmniVoice",
+      "link": "https://zhu-han.github.io/omnivoice/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "AI Model": {
+      "name": "LGTM",
+      "link": "https://yxlao.github.io/lgtm/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Hand Tracking/Gesture Recognition": {
+      "name": "HandX",
+      "link": "https://handx-project.github.io/",
+      "reason": null,
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Vision-Language Model (VLM)": {
+      "name": "GLM-5V Turbo",
+      "link": "https://docs.z.ai/guides/vlm/glm-5v-turbo",
+      "reason": "The 'Turbo' designation implies an improved or latest version of the GLM-5V model.",
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
+    },
+    "Video/Image Generation": {
+      "name": "Wan 2.7",
+      "link": "https://wan.video/",
+      "reason": "It is a new version (2.7) and is mentioned as 'new Wan' in the video title.",
+      "source": "https://youtu.be/o5rGuknRw2A",
+      "date": "2026-04-05",
+      "updated_at_unix": 1775373160
     }
   },
-  "last_updated_unix": 1775028393
+  "last_updated_unix": 1775373160
 }
