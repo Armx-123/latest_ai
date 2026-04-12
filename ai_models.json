@@ -1,5 +1,5 @@
 {
-  "last_id": "UAlLD5fS7-c",
+  "last_id": "1_5sSJK2rU0",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -232,7 +232,95 @@
       "source": "https://youtu.be/o5rGuknRw2A",
       "date": "2026-04-05",
       "updated_at_unix": 1775373160
+    },
+    "Multimodal Large Language Model": {
+      "name": "GLM 5.1",
+      "link": "https://z.ai/blog/glm-5.1",
+      "reason": "The linked blog post states it achieves 'state-of-the-art performance across a wide range of benchmarks' and is available for download.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Real-time 3D Environment Generation": {
+      "name": "Inspatio World",
+      "link": "https://inspatio.github.io/inspatio-world/",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Large Language Model": {
+      "name": "Deepseek V4 Lite",
+      "link": "https://chat.deepseek.com/",
+      "reason": "Mentioned as 'Deepseek v4' in the title, indicating a new version and implied improvement over previous iterations. Deepseek V4 Lite is an open-source model.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Image Generation (Fine-tuned Stable Diffusion XL)": {
+      "name": "Acestep XL",
+      "link": "https://youtu.be/UAlLD5fS7-c",
+      "reason": "No explicit claim of being 'best' or 'latest version' for Acestep XL itself. The link is to a tutorial.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Human Motion Generation": {
+      "name": "Numina",
+      "link": "https://h-embodvis.github.io/NUMINA/",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "LLM Quantization": {
+      "name": "Rotorquant",
+      "link": "https://github.com/scrya-com/rotorquant",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Physics-aware Video Generation": {
+      "name": "MMPhysVideo",
+      "link": "https://shubolin028.github.io/MMPhysVideo-Page/",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Video Animation / Stylization": {
+      "name": "Vanast",
+      "link": "https://hyunsoocha.github.io/vanast/",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Video Generation / Animation": {
+      "name": "Anima v3",
+      "link": "https://modelscope.cn/models/circlestone-labs/Anima/summary",
+      "reason": "Explicitly mentioned as 'Anima v3', indicating a new, updated version.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Image Editing": {
+      "name": "SpatialEdit",
+      "link": "https://github.com/EasonXiao-888/SpatialEdit",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
+    },
+    "Large Language Model (Performance Optimization)": {
+      "name": "LPM",
+      "link": "https://large-performance-model.github.io/",
+      "reason": "No explicit claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/1_5sSJK2rU0",
+      "date": "2026-04-12",
+      "updated_at_unix": 1775978429
     }
   },
-  "last_updated_unix": 1775807260
+  "last_updated_unix": 1775978429
 }
