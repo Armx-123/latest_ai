@@ -1,5 +1,5 @@
 {
-  "last_id": "A_nAU8h9YOY",
+  "last_id": "G8fqduzB5lc",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -250,12 +250,12 @@
       "updated_at_unix": 1775978429
     },
     "Large Language Model": {
-      "name": "Deepseek V4 Lite",
-      "link": "https://chat.deepseek.com/",
-      "reason": "Mentioned as 'Deepseek v4' in the title, indicating a new version and implied improvement over previous iterations. Deepseek V4 Lite is an open-source model.",
-      "source": "https://youtu.be/1_5sSJK2rU0",
-      "date": "2026-04-12",
-      "updated_at_unix": 1775978429
+      "name": "Qwen 3.6",
+      "link": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "reason": "A new version of the Qwen large language model.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
     },
     "Image Generation (Fine-tuned Stable Diffusion XL)": {
       "name": "Acestep XL",
@@ -320,7 +320,95 @@
       "source": "https://youtu.be/1_5sSJK2rU0",
       "date": "2026-04-12",
       "updated_at_unix": 1775978429
+    },
+    "Prompting Tool": {
+      "name": "Prompt relay",
+      "link": "https://gordonchen19.github.io/Prompt-Relay/",
+      "reason": "A web-based tool for experimenting with and sharing prompts for large language models.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Model Compression": {
+      "name": "Ternary Bonsai",
+      "link": "https://prismml.com/news/ternary-bonsai",
+      "reason": "A method for efficient AI inference using ternary quantization.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "3D Object Detection": {
+      "name": "WildDet3D",
+      "link": "https://allenai.github.io/WildDet3D/",
+      "reason": "A model for 3D object detection from monocular images.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Video Generation": {
+      "name": "MotifVideo",
+      "link": "https://motiftech.io/videoshowcase",
+      "reason": "A model for generating and editing videos.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Animation Generation": {
+      "name": "AniGen",
+      "link": "https://yihua7.github.io/AniGen_web/",
+      "reason": "A model to animate characters using text or audio input.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "AI Assistant": {
+      "name": "Happy Oyster",
+      "link": "https://www.happyoyster.cn/",
+      "reason": "An AI assistant or platform.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Audio Codec": {
+      "name": "Lyra 2",
+      "link": "https://research.nvidia.com/labs/sil/projects/lyra2/",
+      "reason": "A neural audio codec, an updated version of Lyra.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "World Model": {
+      "name": "HY World 2.0",
+      "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "reason": "A world model for generating and interacting with realtime 3D worlds, an updated version.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "3D Human Reconstruction": {
+      "name": "OmniShow",
+      "link": "https://correr-zhou.github.io/OmniShow/",
+      "reason": "A unified framework for 3D human reconstruction and motion generation.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Neural Radiance Fields (NeRF)": {
+      "name": "TokenLight",
+      "link": "https://vrroom.github.io/tokenlight/",
+      "reason": "A token-based representation for Neural Radiance Fields (NeRF).",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
+    },
+    "Game Generation": {
+      "name": "GameWorld",
+      "link": "https://gameworld-project.github.io/",
+      "reason": "A unified framework for game generation and interaction.",
+      "source": "https://youtu.be/G8fqduzB5lc",
+      "date": "2026-04-19",
+      "updated_at_unix": 1776583486
     }
   },
-  "last_updated_unix": 1776326022
+  "last_updated_unix": 1776583486
 }
