@@ -1,5 +1,5 @@
 {
-  "last_id": "TLFPbMUtErM",
+  "last_id": "G-oNwbngkt0",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -408,7 +408,47 @@
       "source": "https://youtu.be/G8fqduzB5lc",
       "date": "2026-04-19",
       "updated_at_unix": 1776583486
+    },
+    "Audio Model": {
+      "name": "PrismAudio",
+      "link": "",
+      "reason": "Not specified as new best or latest version.",
+      "source": "https://youtu.be/G-oNwbngkt0",
+      "date": "2026-04-25",
+      "updated_at_unix": 1777101811
+    },
+    "Video Model": {
+      "name": "Video to World",
+      "link": "",
+      "reason": "Not specified as new best or latest version.",
+      "source": "https://youtu.be/G-oNwbngkt0",
+      "date": "2026-04-25",
+      "updated_at_unix": 1777101811
+    },
+    "Language Model": {
+      "name": "Gemma 4",
+      "link": "",
+      "reason": "Not specified as new best or latest version.",
+      "source": "https://youtu.be/G-oNwbngkt0",
+      "date": "2026-04-25",
+      "updated_at_unix": 1777101811
+    },
+    "Rendering Model": {
+      "name": "Renderer",
+      "link": "",
+      "reason": "Not specified as new best or latest version.",
+      "source": "https://youtu.be/G-oNwbngkt0",
+      "date": "2026-04-25",
+      "updated_at_unix": 1777101811
+    },
+    "3D Model": {
+      "name": "WildDet3D",
+      "link": "",
+      "reason": "Not specified as new best or latest version.",
+      "source": "https://youtu.be/G-oNwbngkt0",
+      "date": "2026-04-25",
+      "updated_at_unix": 1777101811
     }
   },
-  "last_updated_unix": 1776844458
+  "last_updated_unix": 1777101811
 }
