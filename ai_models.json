@@ -1,5 +1,5 @@
 {
-  "last_id": "G-oNwbngkt0",
+  "last_id": "ZKfd9S9lOtc",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "Gemma 4",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-      "reason": "It is a new version (Gemma 4) of Google's open-source model family.",
-      "source": "https://youtu.be/o5rGuknRw2A",
-      "date": "2026-04-05",
-      "updated_at_unix": 1775373160
+      "name": "Qwen 3.6 27B",
+      "link": "https://qwen.ai/blog?id=qwen3.6-27b",
+      "reason": "Latest version of Qwen LLM.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
     },
     "Generative AI Model": {
       "name": "Void",
@@ -448,7 +448,87 @@
       "source": "https://youtu.be/G-oNwbngkt0",
       "date": "2026-04-25",
       "updated_at_unix": 1777101811
+    },
+    "Video Game Agents / World Models": {
+      "name": "Multiworld",
+      "link": "https://multi-world.github.io/",
+      "reason": "New research project for multi-agent environments.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Video Game Agents / Game AI": {
+      "name": "OpenGame",
+      "link": "https://www.opengame-project-page.com/",
+      "reason": "New research project for game AI.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Object Detection / Generation": {
+      "name": "UniGenDet",
+      "link": "https://ivg-yanranzhang.github.io/UniGenDet/",
+      "reason": "New research project for universal generation and detection.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "AI for Design / Co-creation": {
+      "name": "Open CoDesign",
+      "link": "https://opencoworkai.github.io/open-codesign/",
+      "reason": "New research project for AI-assisted design.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "AI Agent / ML Automation": {
+      "name": "ML Intern",
+      "link": "https://github.com/huggingface/ml-intern/tree/main",
+      "reason": "New AI agent for automating ML tasks.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Geometry / 3D Generation": {
+      "name": "UniGeo",
+      "link": "https://mo230761.github.io/UniGeo.github.io/",
+      "reason": "New research project for universal geometry.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Image/Video Editing": {
+      "name": "EditCrafter",
+      "link": "https://editcrafter.github.io/",
+      "reason": "New research project for AI-powered editing.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Vision Model / Image Generation": {
+      "name": "VisionBanana",
+      "link": "https://vision-banana.github.io/",
+      "reason": "New research project for vision tasks.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "Human-AI Interaction / Robotics": {
+      "name": "CoInteract",
+      "link": "https://xinxiaozhe12345.github.io/CoInteract_Project/",
+      "reason": "New research project for human-AI interaction.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
+    },
+    "3D Mesh Generation": {
+      "name": "UniMesh",
+      "link": "https://aigeeksgroup.github.io/UniMesh/",
+      "reason": "New research project for universal mesh generation.",
+      "source": "https://youtu.be/ZKfd9S9lOtc",
+      "date": "2026-04-26",
+      "updated_at_unix": 1777189502
     }
   },
-  "last_updated_unix": 1777101811
+  "last_updated_unix": 1777189502
 }
