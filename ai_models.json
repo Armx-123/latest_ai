@@ -1,5 +1,5 @@
 {
-  "last_id": "ZKfd9S9lOtc",
+  "last_id": "XJUpuOBpT-4",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -528,7 +528,143 @@
       "source": "https://youtu.be/ZKfd9S9lOtc",
       "date": "2026-04-26",
       "updated_at_unix": 1777189502
+    },
+    "Image/Video Processing": {
+      "name": "Real Restorer",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Generative AI": {
+      "name": "daVinci MagiHuman",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Audio AI": {
+      "name": "PrismAudio",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Graphics/Simulation AI": {
+      "name": "RetimeGS",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "AI Agent": {
+      "name": "ActionPlan",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Video AI": {
+      "name": "Video to World",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "3D Vision": {
+      "name": "LagerNVS",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "AI Suite": {
+      "name": "CUA Suite",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "LLM": {
+      "name": "Qwen 3.6 27B",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Graphics AI": {
+      "name": "Renderer",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Image Generation": {
+      "name": "PSDesigner",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Spatial AI": {
+      "name": "Inspatio World",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "AI Optimization": {
+      "name": "Rotorquant",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "3D Computer Vision": {
+      "name": "WildDet3D",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Game AI": {
+      "name": "GameWorld",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "Design AI": {
+      "name": "Open CoDesign",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
+    },
+    "3D AI": {
+      "name": "UniGeo",
+      "link": "",
+      "reason": "",
+      "source": "https://youtu.be/XJUpuOBpT-4",
+      "date": "2026-05-01",
+      "updated_at_unix": 1777623415
     }
   },
-  "last_updated_unix": 1777189502
+  "last_updated_unix": 1777623415
 }
