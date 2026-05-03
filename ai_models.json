@@ -1,5 +1,5 @@
 {
-  "last_id": "XJUpuOBpT-4",
+  "last_id": "7r_WJ9xpne0",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -202,12 +202,12 @@
       "updated_at_unix": 1775373160
     },
     "AI Model": {
-      "name": "LGTM",
-      "link": "https://yxlao.github.io/lgtm/",
-      "reason": null,
-      "source": "https://youtu.be/o5rGuknRw2A",
-      "date": "2026-04-05",
-      "updated_at_unix": 1775373160
+      "name": "Tuna2",
+      "link": "https://tuna-ai.org/tuna-2/",
+      "reason": "v2 indicates a new/improved version",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
     },
     "Hand Tracking/Gesture Recognition": {
       "name": "HandX",
@@ -664,7 +664,47 @@
       "source": "https://youtu.be/XJUpuOBpT-4",
       "date": "2026-05-01",
       "updated_at_unix": 1777623415
+    },
+    "Video Editing": {
+      "name": "OmniShotCut",
+      "link": "https://uva-computer-vision-lab.github.io/OmniShotCut_website/",
+      "reason": "",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
+    },
+    "Motion Capture": {
+      "name": "Mocap Anything v2",
+      "link": "https://animotionlab.github.io/MoCapAnythingV2/",
+      "reason": "v2 indicates a new/improved version",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
+    },
+    "Multi-agent Systems": {
+      "name": "Recursive multi agents",
+      "link": "https://recursivemas.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
+    },
+    "3D Reconstruction": {
+      "name": "Vista4D",
+      "link": "https://eyeline-labs.github.io/Vista4D/",
+      "reason": "",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
+    },
+    "Multimodal LLM": {
+      "name": "SenseNova U1",
+      "link": "https://github.com/OpenSenseNova/SenseNova-U1",
+      "reason": "",
+      "source": "https://youtu.be/7r_WJ9xpne0",
+      "date": "2026-05-03",
+      "updated_at_unix": 1777795511
     }
   },
-  "last_updated_unix": 1777623415
+  "last_updated_unix": 1777795511
 }
