@@ -1,5 +1,5 @@
 {
-  "last_id": "7r_WJ9xpne0",
+  "last_id": "quxnhOeRz7I",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "Qwen 3.6 27B",
-      "link": "https://qwen.ai/blog?id=qwen3.6-27b",
-      "reason": "Latest version of Qwen LLM.",
-      "source": "https://youtu.be/ZKfd9S9lOtc",
-      "date": "2026-04-26",
-      "updated_at_unix": 1777189502
+      "name": "Zaya1 8B",
+      "link": "https://www.zyphra.com/post/zaya1-8b",
+      "reason": "New open-source large language model.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     },
     "Generative AI Model": {
       "name": "Void",
@@ -346,12 +346,12 @@
       "updated_at_unix": 1776583486
     },
     "Video Generation": {
-      "name": "MotifVideo",
-      "link": "https://motiftech.io/videoshowcase",
-      "reason": "A model for generating and editing videos.",
-      "source": "https://youtu.be/G8fqduzB5lc",
-      "date": "2026-04-19",
-      "updated_at_unix": 1776583486
+      "name": "UniVidX",
+      "link": "https://houyuanchen111.github.io/UniVidX.github.io/",
+      "reason": "A universal video model for any-to-any video generation and editing.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     },
     "Animation Generation": {
       "name": "AniGen",
@@ -378,12 +378,12 @@
       "updated_at_unix": 1776583486
     },
     "World Model": {
-      "name": "HY World 2.0",
-      "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
-      "reason": "A world model for generating and interacting with realtime 3D worlds, an updated version.",
-      "source": "https://youtu.be/G8fqduzB5lc",
-      "date": "2026-04-19",
-      "updated_at_unix": 1776583486
+      "name": "Map2world",
+      "link": "https://robot0321.github.io/Map2World/index.html",
+      "reason": "New method for generating realistic 3D worlds from 2D maps for robot navigation.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     },
     "3D Human Reconstruction": {
       "name": "OmniShow",
@@ -610,12 +610,12 @@
       "updated_at_unix": 1777623415
     },
     "Image Generation": {
-      "name": "PSDesigner",
-      "link": "",
-      "reason": "",
-      "source": "https://youtu.be/XJUpuOBpT-4",
-      "date": "2026-05-01",
-      "updated_at_unix": 1777623415
+      "name": "HiDream-O1 Image",
+      "link": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+      "reason": "New local image generation model.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     },
     "Spatial AI": {
       "name": "Inspatio World",
@@ -690,12 +690,12 @@
       "updated_at_unix": 1777795511
     },
     "3D Reconstruction": {
-      "name": "Vista4D",
-      "link": "https://eyeline-labs.github.io/Vista4D/",
-      "reason": "",
-      "source": "https://youtu.be/7r_WJ9xpne0",
-      "date": "2026-05-03",
-      "updated_at_unix": 1777795511
+      "name": "DRex",
+      "link": "https://vcai.mpi-inf.mpg.de/projects/DRex/",
+      "reason": "New method for differentiable reconstruction of dynamic 3D scenes with explicit and implicit representations.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     },
     "Multimodal LLM": {
       "name": "SenseNova U1",
@@ -704,7 +704,55 @@
       "source": "https://youtu.be/7r_WJ9xpne0",
       "date": "2026-05-03",
       "updated_at_unix": 1777795511
+    },
+    "Robotic Manipulation": {
+      "name": "MolmoAct 2",
+      "link": "https://allenai.org/blog/molmoact2",
+      "reason": "New version for long-horizon robotic manipulation, associated with a new benchmark.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
+    },
+    "3D Object Generation": {
+      "name": "PhysForge",
+      "link": "https://hku-mmlab.github.io/PhysForge/",
+      "reason": "A unified framework for physics-based 3D object generation and robot interaction.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
+    },
+    "AI Framework": {
+      "name": "LabOS",
+      "link": "https://ai4labos.com/",
+      "reason": "New open-source framework for autonomous scientific discovery.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
+    },
+    "Large Language Model (LLM) Optimization": {
+      "name": "TwELL",
+      "link": "https://pub.sakana.ai/sparser-faster-llms/",
+      "reason": "New method for two-level sparsity to create faster and more efficient LLMs.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
+    },
+    "Image-to-Video Generation": {
+      "name": "SwiftI2V",
+      "link": "https://hkust-longgroup.github.io/SwiftI2V/",
+      "reason": "New method for synthesizing swift and high-quality videos from images.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
+    },
+    "3D Generation": {
+      "name": "CDM",
+      "link": "https://byliutao.github.io/cdm_page/",
+      "reason": "New conditional diffusion model for 3D object generation.",
+      "source": "https://youtu.be/quxnhOeRz7I",
+      "date": "2026-05-10",
+      "updated_at_unix": 1778400721
     }
   },
-  "last_updated_unix": 1777795511
+  "last_updated_unix": 1778400721
 }
