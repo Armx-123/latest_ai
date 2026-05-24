@@ -1,5 +1,5 @@
 {
-  "last_id": "J02-39xtlt4",
+  "last_id": "pC6KHflGye0",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "Zaya1 8B",
-      "link": "https://www.zyphra.com/post/zaya1-8b",
-      "reason": "New open-source large language model.",
-      "source": "https://youtu.be/quxnhOeRz7I",
-      "date": "2026-05-10",
-      "updated_at_unix": 1778400721
+      "name": "Qwen 3.7",
+      "link": "https://qwen.ai/blog?id=qwen3.7",
+      "reason": "Latest version (3.7) of the Qwen large language model.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
     },
     "Generative AI Model": {
       "name": "Void",
@@ -824,7 +824,127 @@
       "source": "https://youtu.be/NnsQj2nDkKA",
       "date": "2026-05-17",
       "updated_at_unix": 1779006315
+    },
+    "Vector Database": {
+      "name": "Lance",
+      "link": "https://lance-project.github.io/",
+      "reason": "New open-source vector database.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Vision-Language Model Prompting": {
+      "name": "LiTo",
+      "link": "https://apple.github.io/ml-lito/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Robotics / Reinforcement Learning": {
+      "name": "Flash GRPO",
+      "link": "https://shredded-pork.github.io/Flash-GRPO.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "World Models / Robotics": {
+      "name": "ReactiveGWM",
+      "link": "https://inv-wzq.github.io/ReactiveGWM/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Continual Learning / Prompting": {
+      "name": "L2P",
+      "link": "https://nju-pcalab.github.io/projects/L2P/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Genomics / Foundation Model": {
+      "name": "Carbon",
+      "link": "https://huggingface.co/spaces/HuggingFaceBio/carbon-demo",
+      "reason": "A new foundation model specifically for DNA.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Video Generation / Avatar": {
+      "name": "LongCat avatar 1.5",
+      "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+      "reason": "Latest version (1.5) of the LongCat Video Avatar model.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Automatic Speech Recognition (ASR)": {
+      "name": "MegaASR",
+      "link": "https://xzf-thu.github.io/Mega-ASR/",
+      "reason": "A new large-scale multilingual ASR model.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Machine Translation": {
+      "name": "HY-MT2",
+      "link": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Live Translation": {
+      "name": "Qwen live translate",
+      "link": "https://qwen.ai/blog?id=qwen3.5-livetranslate",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Robotics Framework": {
+      "name": "LeRobot",
+      "link": "https://huggingface.co/blog/VirgileBatto/lerobot-humanoid",
+      "reason": "A new open-source framework for robot learning.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Robotics / Control": {
+      "name": "CogOmniControl",
+      "link": "https://um-lab.github.io/CogOmniControl/",
+      "reason": "A new generalist robot control model.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Audio Generation": {
+      "name": "WavFlow",
+      "link": "https://facebookresearch.github.io/WavFlow/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "World Model / Panoramic Vision": {
+      "name": "PanoWorld",
+      "link": "https://jjrcn.github.io/PanoWorld-project-home/",
+      "reason": "",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
+    },
+    "Image Editing / Fashion": {
+      "name": "FashionChameleon",
+      "link": "https://quanjiansong.github.io/projects/FashionChameleon/",
+      "reason": "A new generalist model for fashion image editing.",
+      "source": "https://youtu.be/pC6KHflGye0",
+      "date": "2026-05-24",
+      "updated_at_unix": 1779594990
     }
   },
-  "last_updated_unix": 1779356909
+  "last_updated_unix": 1779594990
 }
