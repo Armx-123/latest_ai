@@ -1,5 +1,5 @@
 {
-  "last_id": "pC6KHflGye0",
+  "last_id": "QvN6Tu6dHYM",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -944,7 +944,343 @@
       "source": "https://youtu.be/pC6KHflGye0",
       "date": "2026-05-24",
       "updated_at_unix": 1779594990
+    },
+    "Human Generation": {
+      "name": "daVinci MagiHuman",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Graphics Rendering": {
+      "name": "RetimeGS",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "AI Planning": {
+      "name": "ActionPlan",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Multi-Agent Systems": {
+      "name": "WorldAgents",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Neural Volume Synthesis": {
+      "name": "LagerNVS",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Motion Synthesis": {
+      "name": "Pulse of Motion",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Optical Flow Estimation": {
+      "name": "MegaFlow",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Rendering": {
+      "name": "Renderer",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Generative Search": {
+      "name": "GenSearcher",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Dialogue Systems": {
+      "name": "TokenDial",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Audio Diffusion Model": {
+      "name": "LongCat AudioDiT",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Voice Synthesis": {
+      "name": "OmniVoice",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Hand Tracking": {
+      "name": "HandX",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Quantization": {
+      "name": "Rotorquant",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Multi-modal Video": {
+      "name": "MMPhysVideo",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Animation": {
+      "name": "Anima v3",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Spatial Editing": {
+      "name": "SpatialEdit",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Prompt Engineering": {
+      "name": "Prompt relay",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Universal Video Model": {
+      "name": "UniVidX",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "World Models": {
+      "name": "Multiworld",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Universal Generation and Detection": {
+      "name": "UniGenDet",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Collaborative Design": {
+      "name": "Open CoDesign",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Machine Learning Tools": {
+      "name": "ML Intern",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Geometry AI": {
+      "name": "UniGeo",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Human-AI Interaction": {
+      "name": "CoInteract",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Mesh Generation": {
+      "name": "UniMesh",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Lab Automation": {
+      "name": "LabOS",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Image to Video Generation": {
+      "name": "SwiftI2V",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Audio Dubbing": {
+      "name": "Just Dub it",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Flow Estimation": {
+      "name": "AsymFlow",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Causal Inference": {
+      "name": "CausalCine",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Relighting": {
+      "name": "RelitLive",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Art Generation": {
+      "name": "Articraft",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Reinforcement Learning": {
+      "name": "Flash GRPO",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Generative World Models": {
+      "name": "ReactiveGWM",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Avatar Generation": {
+      "name": "LongCat avatar 1.5",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Automatic Speech Recognition": {
+      "name": "MegaASR",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Robotics": {
+      "name": "LeRobot",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Control Systems": {
+      "name": "CogOmniControl",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Audio Processing": {
+      "name": "WavFlow",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Panoramic World Models": {
+      "name": "PanoWorld",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
+    },
+    "Fashion AI": {
+      "name": "FashionChameleon",
+      "link": null,
+      "reason": null,
+      "source": "https://youtu.be/QvN6Tu6dHYM",
+      "date": "2026-05-28",
+      "updated_at_unix": 1779962926
     }
   },
-  "last_updated_unix": 1779594990
+  "last_updated_unix": 1779962926
 }
