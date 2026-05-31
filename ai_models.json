@@ -1,5 +1,5 @@
 {
-  "last_id": "QvN6Tu6dHYM",
+  "last_id": "RdqYvdT74i0",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -186,12 +186,12 @@
       "updated_at_unix": 1775373160
     },
     "Multimodal Large Language Model (LLM)": {
-      "name": "Qwen 3.6",
-      "link": "https://qwen.ai/blog?id=qwen3.6",
-      "reason": "It is a new version (3.6) of the Qwen model family.",
-      "source": "https://youtu.be/o5rGuknRw2A",
-      "date": "2026-04-05",
-      "updated_at_unix": 1775373160
+      "name": "MiniCPM5 1B",
+      "link": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "reason": "The latest version of MiniCPM, a compact and powerful multimodal LLM.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
     },
     "Voice/Audio Generation": {
       "name": "OmniVoice",
@@ -610,12 +610,12 @@
       "updated_at_unix": 1777623415
     },
     "Image Generation": {
-      "name": "HiDream-O1 Image",
-      "link": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
-      "reason": "New local image generation model.",
-      "source": "https://youtu.be/quxnhOeRz7I",
-      "date": "2026-05-10",
-      "updated_at_unix": 1778400721
+      "name": "Bonsai Image",
+      "link": "https://prismml.com/news/bonsai-image-4b",
+      "reason": "A new family of compact, high-performance image generation models (Bonsai Image 4B).",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
     },
     "Spatial AI": {
       "name": "Inspatio World",
@@ -1280,7 +1280,111 @@
       "source": "https://youtu.be/QvN6Tu6dHYM",
       "date": "2026-05-28",
       "updated_at_unix": 1779962926
+    },
+    "3D Object Localization": {
+      "name": "LocateAnything",
+      "link": "https://research.nvidia.com/labs/lpr/locate-anything/",
+      "reason": "A new framework for 3D object localization.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Image Relighting": {
+      "name": "ControlLight",
+      "link": "https://yfyang007.github.io/ControlLight/",
+      "reason": "A novel framework for controllable image relighting.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Human-Robot Interaction": {
+      "name": "PiD",
+      "link": "https://research.nvidia.com/labs/sil/projects/pid/",
+      "reason": "A novel framework for human-robot interaction, enabling robots to learn from human demonstrations.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Audio-Visual Generation": {
+      "name": "InstructAV2AV",
+      "link": "https://hjzheng.net/projects/InstructAV2AV/",
+      "reason": "A novel framework for generating audio-visual content from instructions.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "3D Scene Understanding": {
+      "name": "Scope",
+      "link": "https://z2tong.github.io/SCOPE/",
+      "reason": "A novel framework for 3D scene understanding.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Physics Simulation": {
+      "name": "PhysX Omni",
+      "link": "https://physx-omni.github.io/",
+      "reason": "A novel framework for physics simulation, integrating PhysX with Omniverse.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Software Engineering AI": {
+      "name": "DeepSWE",
+      "link": "https://deepswe.datacurve.ai/blog",
+      "reason": "New state-of-the-art (SOTA) model for software engineering tasks.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "3D Object Segmentation": {
+      "name": "CubePart",
+      "link": "https://cubepart.github.io/",
+      "reason": "A novel framework for 3D object segmentation.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "3D Character Modeling": {
+      "name": "Relightable chars",
+      "link": "https://vcai.mpi-inf.mpg.de/projects/RHC/",
+      "reason": "A novel framework for creating relightable human characters.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Self-Improving AI": {
+      "name": "Self Improving AI",
+      "link": "https://guoweixu.com/bes/",
+      "reason": "A novel framework for self-improving AI agents.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Autonomous AI Agents": {
+      "name": "AutoScientists",
+      "link": "https://autoscientists.openscientist.ai/",
+      "reason": "A novel framework for autonomous AI agents in scientific discovery.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "360-degree Video Generation": {
+      "name": "Pantheon 360",
+      "link": "https://koi953215.github.io/pantheon360_page/",
+      "reason": "A novel framework for 360-degree video generation.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
+    },
+    "Image Segmentation": {
+      "name": "Sega",
+      "link": "https://rajabi2001.github.io/sega/",
+      "reason": "A novel framework for segmentation-guided attention in image processing.",
+      "source": "https://youtu.be/RdqYvdT74i0",
+      "date": "2026-05-31",
+      "updated_at_unix": 1780200544
     }
   },
-  "last_updated_unix": 1779962926
+  "last_updated_unix": 1780200544
 }
