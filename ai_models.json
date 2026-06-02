@@ -1,5 +1,5 @@
 {
-  "last_id": "RdqYvdT74i0",
+  "last_id": "DlvhlQOBHBw",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -610,12 +610,12 @@
       "updated_at_unix": 1777623415
     },
     "Image Generation": {
-      "name": "Bonsai Image",
-      "link": "https://prismml.com/news/bonsai-image-4b",
-      "reason": "A new family of compact, high-performance image generation models (Bonsai Image 4B).",
-      "source": "https://youtu.be/RdqYvdT74i0",
-      "date": "2026-05-31",
-      "updated_at_unix": 1780200544
+      "name": "PiD Pixel Diffusion",
+      "link": "https://huggingface.co/Comfy-Org/PixelDiT/tree/main/diffusion_models",
+      "reason": "Explicitly stated as 'The BEST AI for 4K images' in the video title and 'Best AI image model for high resolution images' in the description.",
+      "source": "https://youtu.be/DlvhlQOBHBw",
+      "date": "2026-06-02",
+      "updated_at_unix": 1780396937
     },
     "Spatial AI": {
       "name": "Inspatio World",
@@ -1384,7 +1384,23 @@
       "source": "https://youtu.be/RdqYvdT74i0",
       "date": "2026-05-31",
       "updated_at_unix": 1780200544
+    },
+    "Text Encoder": {
+      "name": "Gemma 2b",
+      "link": "https://huggingface.co/Comfy-Org/PixelDiT/tree/main/text_encoders",
+      "reason": "",
+      "source": "https://youtu.be/DlvhlQOBHBw",
+      "date": "2026-06-02",
+      "updated_at_unix": 1780396937
+    },
+    "Image Encoding/Decoding": {
+      "name": "VAE",
+      "link": "https://huggingface.co/Comfy-Org/z_image_turbo/tree/main/split_files/vae",
+      "reason": "",
+      "source": "https://youtu.be/DlvhlQOBHBw",
+      "date": "2026-06-02",
+      "updated_at_unix": 1780396937
     }
   },
-  "last_updated_unix": 1780200544
+  "last_updated_unix": 1780396937
 }
