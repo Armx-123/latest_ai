@@ -1,5 +1,5 @@
 {
-  "last_id": "DlvhlQOBHBw",
+  "last_id": "CzxqQJOswvo",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "Qwen 3.7",
-      "link": "https://qwen.ai/blog?id=qwen3.7",
-      "reason": "Latest version (3.7) of the Qwen large language model.",
-      "source": "https://youtu.be/pC6KHflGye0",
-      "date": "2026-05-24",
-      "updated_at_unix": 1779594990
+      "name": "Qwen 3.7 Plus",
+      "link": "https://qwen.ai/blog?id=qwen3.7-plus",
+      "reason": "The '3.7 Plus' indicates it is the latest version in the Qwen series.",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
     },
     "Generative AI Model": {
       "name": "Void",
@@ -1400,7 +1400,71 @@
       "source": "https://youtu.be/DlvhlQOBHBw",
       "date": "2026-06-02",
       "updated_at_unix": 1780396937
+    },
+    "3D Human Generation": {
+      "name": "Bernini",
+      "link": "https://bernini-ai.github.io/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Panoramic Gaussian Representation / 3D Reconstruction": {
+      "name": "PaGeR",
+      "link": "https://pager360.github.io/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Realtime AI Music Generation": {
+      "name": "Magenta Realtime 2",
+      "link": "https://magenta.withgoogle.com/magenta-realtime-2",
+      "reason": "The '2' indicates it is the latest version of Magenta Realtime.",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Diffusion Model Training": {
+      "name": "Stable Layers",
+      "link": "https://stability-ai.github.io/stable-layers.github.io/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Text-to-Speech (TTS)": {
+      "name": "WavTTS",
+      "link": "https://wavtts.github.io/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Real-time 3D Character Conversation / Human-AI Interaction": {
+      "name": "StreamChar",
+      "link": "https://humanaigc.github.io/StreamChar_page/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Audio-Visual Avatars / Facial Animation": {
+      "name": "NAVA",
+      "link": "https://ernie-research.github.io/NAVA/",
+      "reason": "N/A",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
+    },
+    "Multimodal AI / General AI": {
+      "name": "Gemini Omni",
+      "link": null,
+      "reason": "Explicitly mentioned as 'open-source Gemini Omni' in the video title.",
+      "source": "https://youtu.be/CzxqQJOswvo",
+      "date": "2026-06-07",
+      "updated_at_unix": 1780805664
     }
   },
-  "last_updated_unix": 1780396937
+  "last_updated_unix": 1780805664
 }
