@@ -1,5 +1,5 @@
 {
-  "last_id": "CzxqQJOswvo",
+  "last_id": "OA4gchz1Zcs",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -1464,7 +1464,15 @@
       "source": "https://youtu.be/CzxqQJOswvo",
       "date": "2026-06-07",
       "updated_at_unix": 1780805664
+    },
+    "AI Image Generator": {
+      "name": "Ideogram 4",
+      "link": "https://huggingface.co/Comfy-Org/Ideogram-4",
+      "reason": "Explicitly stated as 'New BEST local AI image generator' and 'Best open-source AI image generator' in the video title and description.",
+      "source": "https://youtu.be/OA4gchz1Zcs",
+      "date": "2026-06-09",
+      "updated_at_unix": 1780998711
     }
   },
-  "last_updated_unix": 1780805664
+  "last_updated_unix": 1780998711
 }
