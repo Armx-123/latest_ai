@@ -1,5 +1,5 @@
 {
-  "last_id": "GUEE9OA4keo",
+  "last_id": "SxiRANj0xLs",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "Qwen 3.7 Plus",
-      "link": "https://qwen.ai/blog?id=qwen3.7-plus",
-      "reason": "The '3.7 Plus' indicates it is the latest version in the Qwen series.",
-      "source": "https://youtu.be/CzxqQJOswvo",
-      "date": "2026-06-07",
-      "updated_at_unix": 1780805664
+      "name": "MiniMax M3",
+      "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "reason": "New model release from MiniMax AI, highlighted as 'HUGE AI NEWS'.",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
     },
     "Generative AI Model": {
       "name": "Void",
@@ -1434,12 +1434,12 @@
       "updated_at_unix": 1780805664
     },
     "Text-to-Speech (TTS)": {
-      "name": "WavTTS",
-      "link": "https://wavtts.github.io/",
-      "reason": "N/A",
-      "source": "https://youtu.be/CzxqQJOswvo",
-      "date": "2026-06-07",
-      "updated_at_unix": 1780805664
+      "name": "Dots tts",
+      "link": "https://rednote-hilab.github.io/dots.tts-demo/",
+      "reason": "New text-to-speech model mentioned in the video title as 'new TTS'.",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
     },
     "Real-time 3D Character Conversation / Human-AI Interaction": {
       "name": "StreamChar",
@@ -1472,7 +1472,127 @@
       "source": "https://youtu.be/OA4gchz1Zcs",
       "date": "2026-06-09",
       "updated_at_unix": 1780998711
+    },
+    "AI Agents / Reinforcement Learning": {
+      "name": "SCAIL 2",
+      "link": "https://teal024.github.io/SCAIL-2/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "World Models / AI Agents": {
+      "name": "Actionable World",
+      "link": "https://worldstring-iei.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Robotics / Embodied AI": {
+      "name": "Oscar",
+      "link": "https://wuzy2115.github.io/oscar-project-page/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Text-to-Image Diffusion": {
+      "name": "DiffusionGemma",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "reason": "New model in the open-source Gemma family, offering faster text-to-image generation.",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Video Generation / Motion Prediction": {
+      "name": "StreamForce",
+      "link": "https://neu-vi.github.io/StreamForce/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "AI Agent Evaluation": {
+      "name": "Agents Last Exam",
+      "link": "https://agents-last-exam.org/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Large Language Model (LLM) / Reasoning": {
+      "name": "Arbor",
+      "link": "https://ruc-nlpir.github.io/Arbor/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "3D Reconstruction / World Models": {
+      "name": "World Tracing",
+      "link": "https://haoz19.github.io/world-tracing-page/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Full Body Avatars / 4D Human Reconstruction": {
+      "name": "Flex4DHuman",
+      "link": "https://andy-cheng.github.io/Flex4DHuman/",
+      "reason": "New model for 'full body avatars' mentioned in the video title.",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Video Generation / Motion Diffusion": {
+      "name": "VideoMDM",
+      "link": "https://videomdm.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "3D Reconstruction / Neural Radiance Fields": {
+      "name": "Surflo",
+      "link": "https://anttwo.github.io/surflo/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Motion Generation / 3D Avatars": {
+      "name": "Moverse",
+      "link": "https://orange-3dv-team.github.io/MoVerse/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "World Models / 3D Scene Understanding": {
+      "name": "AnchorWorld",
+      "link": "https://yuli0103.github.io/AnchorWorld/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "3D Mesh Generation / Fluid Simulation": {
+      "name": "MeshFlow",
+      "link": "https://mesh-flow.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
+    },
+    "Video Generation / Long Video Synthesis": {
+      "name": "Millivid",
+      "link": "https://davidcharatan.com/millivid/",
+      "reason": "",
+      "source": "https://youtu.be/SxiRANj0xLs",
+      "date": "2026-06-14",
+      "updated_at_unix": 1781411003
     }
   },
-  "last_updated_unix": 1781174545
+  "last_updated_unix": 1781411003
 }
