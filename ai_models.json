@@ -1,5 +1,5 @@
 {
-  "last_id": "6d__WOpZswY",
+  "last_id": "kkLlzQqa7MY",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "MiniMax M3",
-      "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-      "reason": "New model release from MiniMax AI, highlighted as 'HUGE AI NEWS'.",
-      "source": "https://youtu.be/SxiRANj0xLs",
-      "date": "2026-06-14",
-      "updated_at_unix": 1781411003
+      "name": "GLM 5.2",
+      "link": "https://unsloth.ai/docs/models/glm-5.2",
+      "reason": "Mentioned as a 'craze' in the title, indicating a significant new development or improvement, and GGUFs are for local, often open-source, deployment.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
     },
     "Generative AI Model": {
       "name": "Void",
@@ -1592,7 +1592,47 @@
       "source": "https://youtu.be/SxiRANj0xLs",
       "date": "2026-06-14",
       "updated_at_unix": 1781411003
+    },
+    "Machine Learning Framework": {
+      "name": "LTX Trainer",
+      "link": "https://github.com/Lightricks/LTX-2/tree/main/packages/ltx-trainer",
+      "reason": "GitHub link confirms open source.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
+    },
+    "World Model / Generative AI": {
+      "name": "DreamX World",
+      "link": "https://amap-ml.github.io/DreamX_World/",
+      "reason": "GitHub.io link suggests an open-source project.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
+    },
+    "Robotics / Exoskeleton Control": {
+      "name": "UME",
+      "link": "https://ume-exo.github.io/",
+      "reason": "GitHub.io link suggests an open-source project.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
+    },
+    "Optimization Suite": {
+      "name": "LOGOS",
+      "link": "https://github.com/LOGOS-Hub/LOGOS",
+      "reason": "GitHub link confirms open source, described as a 'Large-scale Open-source General-purpose Optimization Suite'.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
+    },
+    "Style Transfer": {
+      "name": "Telestyle V2",
+      "link": "https://witcherofresearch.github.io/TeleStyleV2/",
+      "reason": "'V2' in the name implies it's a newer, improved version.",
+      "source": "https://youtu.be/kkLlzQqa7MY",
+      "date": "2026-06-21",
+      "updated_at_unix": 1782016853
     }
   },
-  "last_updated_unix": 1781694147
+  "last_updated_unix": 1782016853
 }
