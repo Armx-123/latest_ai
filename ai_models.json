@@ -1,5 +1,5 @@
 {
-  "last_id": "1U8dJ94QFNc",
+  "last_id": "7c_ieWfAbrw",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -186,12 +186,12 @@
       "updated_at_unix": 1775373160
     },
     "Multimodal Large Language Model (LLM)": {
-      "name": "MiniCPM5 1B",
-      "link": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "reason": "The latest version of MiniCPM, a compact and powerful multimodal LLM.",
-      "source": "https://youtu.be/RdqYvdT74i0",
-      "date": "2026-05-31",
-      "updated_at_unix": 1780200544
+      "name": "Seed 2.1 (Seed-LLaMA)",
+      "link": "https://seed.bytedance.com/en/seed2_1",
+      "reason": "Mentioned as 'Seed 2.1' in the 'HUGE AI news' section, indicating it's a new version of the open-source Seed-LLaMA family of multimodal large language models.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
     },
     "Voice/Audio Generation": {
       "name": "OmniVoice",
@@ -1632,7 +1632,71 @@
       "source": "https://youtu.be/kkLlzQqa7MY",
       "date": "2026-06-21",
       "updated_at_unix": 1782016853
+    },
+    "Image-to-Image Translation": {
+      "name": "Domain Shuttle",
+      "link": "https://cn-makers.github.io/DomainShuttle/",
+      "reason": "A unified framework for cross-domain image-to-image translation, released as an open-source project on GitHub.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Embodied AI / Generalist Agent": {
+      "name": "Ornith 1.0",
+      "link": "https://deep-reinforce.com/ornith_1_0.html",
+      "reason": "A research project introducing a generalist agent for embodied AI.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Dance-driven Person Diffusion / Video Generation": {
+      "name": "DanceOPD",
+      "link": "https://danceopd.github.io/",
+      "reason": "An open-source project for dance-driven one-shot person diffusion.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Image Generation (novel method)": {
+      "name": "Un-0",
+      "link": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators",
+      "reason": "A new method for generating images using coupled oscillators, presented as a research project.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Human Motion Generation / 4D Diffusion": {
+      "name": "Lift4D",
+      "link": "https://lift4d.github.io/",
+      "reason": "An open-source project for lifting 2D diffusion models to 4D for universal human motion generation.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Diffusion Language Model / Perceptual Tasks": {
+      "name": "PerceptionDLM",
+      "link": "https://msalab-pku.github.io/projects/PerceptionDLM/index.html",
+      "reason": "An open-source project for a diffusion language model designed for perceptual tasks.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Self-Supervised Learning / Visual Recognition": {
+      "name": "Autodata",
+      "link": "https://facebookresearch.github.io/RAM/blogs/autodata/",
+      "reason": "A Facebook Research open-source project for a self-supervised approach to data-efficient visual recognition.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
+    },
+    "Large Language Model (LLM) / Japanese LLM": {
+      "name": "Sakana Fugu",
+      "link": "https://sakana.ai/fugu",
+      "reason": "A new Japanese LLM with a focus on efficiency and performance, available on Hugging Face for commercial use, indicating an open-access or open-source release.",
+      "source": "https://youtu.be/7c_ieWfAbrw",
+      "date": "2026-06-28",
+      "updated_at_unix": 1782619654
     }
   },
-  "last_updated_unix": 1782293736
+  "last_updated_unix": 1782619654
 }
