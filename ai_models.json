@@ -1,5 +1,5 @@
 {
-  "last_id": "J0D7qV3nl7w",
+  "last_id": "qtzzN8w2TvU",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -1696,7 +1696,119 @@
       "source": "https://youtu.be/7c_ieWfAbrw",
       "date": "2026-06-28",
       "updated_at_unix": 1782619654
+    },
+    "Music/Video Generation": {
+      "name": "MusViT",
+      "link": "https://grfia.dlsi.ua.es/musvit/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Large Language Model (LLM) / Long Context": {
+      "name": "LongCat 2.0",
+      "link": "https://longcat.chat/blog/longcat-2.0/",
+      "reason": "Explicitly mentioned as 'LongCat 2.0', indicating a new, improved version.",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Hand Tracking / Human-Computer Interaction": {
+      "name": "VidiHand",
+      "link": "https://vidihand.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "AI Agents": {
+      "name": "Agents A1",
+      "link": "https://internscience.github.io/Agents-A1/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Robotics / Contact Simulation": {
+      "name": "OmniContact",
+      "link": "https://omnicontact.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Human Motion / Physics Simulation": {
+      "name": "PhysiFormer",
+      "link": "https://yimingc9.github.io/physiformer/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Robotics / Simulation": {
+      "name": "Aspire",
+      "link": "https://research.nvidia.com/labs/gear/aspire/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "AI Agents / Workflow Automation": {
+      "name": "Comfy MCP",
+      "link": "https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Brain-Computer Interface (BCI)": {
+      "name": "Brain2qwerty",
+      "link": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Robotics / Manipulation": {
+      "name": "RDM",
+      "link": "https://alan-lanfeng.github.io/rdm/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Optical Flow / Video Analysis": {
+      "name": "MrFlow",
+      "link": "https://github.com/Xingyu-Zheng/MrFlow",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Simulation / Robotics": {
+      "name": "SimFoundry",
+      "link": "https://research.nvidia.com/labs/gear/simfoundry/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Robotics / Data Generation (Video to Data)": {
+      "name": "CHORD",
+      "link": "https://nvidia-isaac.github.io/video_to_data/chord/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
+    },
+    "Human Motion / Animation": {
+      "name": "Luna",
+      "link": "https://penghtyx.github.io/LUNA/",
+      "reason": "",
+      "source": "https://youtu.be/qtzzN8w2TvU",
+      "date": "2026-07-05",
+      "updated_at_unix": 1783241796
     }
   },
-  "last_updated_unix": 1783070573
+  "last_updated_unix": 1783241796
 }
