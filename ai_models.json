@@ -1,5 +1,5 @@
 {
-  "last_id": "SettwwX2cCI",
+  "last_id": "Ti1V7OI2Rro",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -1808,7 +1808,71 @@
       "source": "https://youtu.be/qtzzN8w2TvU",
       "date": "2026-07-05",
       "updated_at_unix": 1783241796
+    },
+    "Robotics/Agents/Simulation": {
+      "name": "ABot World",
+      "link": "https://amap-cvlab.github.io/ABot-World/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "Pose Estimation/Human Motion": {
+      "name": "ProxyPose",
+      "link": "https://ruihangzhang97.github.io/proxypose/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "World Models/3D Reconstruction": {
+      "name": "PixWorld",
+      "link": "https://sensengao.github.io/PixWorld/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "Live Streaming/Virtual Avatars": {
+      "name": "Wan Streamer 0.2",
+      "link": "https://wan-streamer.com/v0.2/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "AI Agents/Framework": {
+      "name": "Mira",
+      "link": "https://mira-wm.com/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "Robotics/Simulation/Language Models": {
+      "name": "LingBot World 2",
+      "link": "https://technology.robbyant.com/lingbot-world-v2",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "Robotics/Surgery": {
+      "name": "Humanoid surgery",
+      "link": "https://humanoid-surgeon.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
+    },
+    "World Models/Simulation": {
+      "name": "Alaya World",
+      "link": "https://alaya-lab.github.io/AlayaWorld/",
+      "reason": "",
+      "source": "https://youtu.be/Ti1V7OI2Rro",
+      "date": "2026-07-12",
+      "updated_at_unix": 1783844505
     }
   },
-  "last_updated_unix": 1783676405
+  "last_updated_unix": 1783844505
 }
