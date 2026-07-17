@@ -1,5 +1,5 @@
 {
-  "last_id": "Ti1V7OI2Rro",
+  "last_id": "bEnE5pbpe_Q",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -594,12 +594,12 @@
       "updated_at_unix": 1777623415
     },
     "LLM": {
-      "name": "DeepSeek-V4-Pro-DSpark",
-      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
-      "reason": "Described as a 'HUGE breakthrough' and offering 'Huge speed and throughput unlock' through the dSpark technique, indicating significant improvements in LLM performance and efficiency.",
-      "source": "https://youtu.be/J0D7qV3nl7w",
-      "date": "2026-07-03",
-      "updated_at_unix": 1783070573
+      "name": "Kimi K3",
+      "link": "https://www.kimi.com/",
+      "reason": "Explicitly stated as 'New #1 open source AI model is here!' in the title and 'Best open source AI model' in the description.",
+      "source": "https://youtu.be/bEnE5pbpe_Q",
+      "date": "2026-07-17",
+      "updated_at_unix": 1784276044
     },
     "Graphics AI": {
       "name": "Renderer",
@@ -1874,5 +1874,5 @@
       "updated_at_unix": 1783844505
     }
   },
-  "last_updated_unix": 1783844505
+  "last_updated_unix": 1784276044
 }
