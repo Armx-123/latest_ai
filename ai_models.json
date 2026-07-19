@@ -1,5 +1,5 @@
 {
-  "last_id": "bEnE5pbpe_Q",
+  "last_id": "uQ2Hqg5MZ-8",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -250,12 +250,12 @@
       "updated_at_unix": 1775978429
     },
     "Large Language Model": {
-      "name": "Qwen 3.6",
-      "link": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
-      "reason": "A new version of the Qwen large language model.",
-      "source": "https://youtu.be/G8fqduzB5lc",
-      "date": "2026-04-19",
-      "updated_at_unix": 1776583486
+      "name": "Bonsai 27B",
+      "link": "https://prismml.com/news/bonsai-27b",
+      "reason": "Described as 'The World's First Ternary LLM'.",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
     },
     "Image Generation (Fine-tuned Stable Diffusion XL)": {
       "name": "Acestep XL",
@@ -1872,7 +1872,55 @@
       "source": "https://youtu.be/Ti1V7OI2Rro",
       "date": "2026-07-12",
       "updated_at_unix": 1783844505
+    },
+    "Monocular Depth Estimation": {
+      "name": "MobileWan",
+      "link": "https://qualcomm-ai-research.github.io/MobileWan/",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
+    },
+    "Human Dance Generation": {
+      "name": "WanDancer",
+      "link": "https://humanaigc.github.io/wan-dancer-project/",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
+    },
+    "Robot Navigation": {
+      "name": "GNM",
+      "link": "https://github.com/google/GNM",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
+    },
+    "Multi-Modal Generation": {
+      "name": "Lucida",
+      "link": "https://github.com/egeorcun/lucida",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
+    },
+    "Motion-to-Motion Generation": {
+      "name": "Motion4Motion",
+      "link": "https://lhchen.top/Motion4Motion",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
+    },
+    "Real-time Video Generation": {
+      "name": "Wan Streamer v0.3",
+      "link": "https://wan-streamer.com/v0.3/",
+      "reason": "",
+      "source": "https://youtu.be/uQ2Hqg5MZ-8",
+      "date": "2026-07-19",
+      "updated_at_unix": 1784449408
     }
   },
-  "last_updated_unix": 1784276044
+  "last_updated_unix": 1784449408
 }
