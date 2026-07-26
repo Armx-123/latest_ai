@@ -1,5 +1,5 @@
 {
-  "last_id": "uQ2Hqg5MZ-8",
+  "last_id": "fMaPaK4gcNE",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -1920,7 +1920,55 @@
       "source": "https://youtu.be/uQ2Hqg5MZ-8",
       "date": "2026-07-19",
       "updated_at_unix": 1784449408
+    },
+    "Image Generation / Flow": {
+      "name": "Mage Flow",
+      "link": "https://huggingface.co/microsoft/Mage-Flow",
+      "reason": "",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
+    },
+    "Video Planning / Generation": {
+      "name": "ShotPlan",
+      "link": "https://pensioner-11.github.io/ShotPlan/",
+      "reason": "",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
+    },
+    "3D Generation / Home Design": {
+      "name": "Homie",
+      "link": "https://yiyangcai.github.io/homie-page.github.io/",
+      "reason": "",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
+    },
+    "Text-to-Image": {
+      "name": "Flux 3",
+      "link": "https://bfl.ai/models/flux-3",
+      "reason": "Described as a new state-of-the-art text-to-image model with unmatched efficiency, and mentioned as 'HUGE AI NEWS'.",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
+    },
+    "Multimodal LLM / Vision": {
+      "name": "GLM-5.2-Vision-NVFP4",
+      "link": "https://huggingface.co/baseten/GLM-5.2-Vision-NVFP4",
+      "reason": "",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
+    },
+    "3D Generation / Dreamer": {
+      "name": "OpenDreamer",
+      "link": "https://next-state.github.io/open-dreamer/",
+      "reason": "",
+      "source": "https://youtu.be/fMaPaK4gcNE",
+      "date": "2026-07-26",
+      "updated_at_unix": 1785054606
     }
   },
-  "last_updated_unix": 1784449408
+  "last_updated_unix": 1785054606
 }
