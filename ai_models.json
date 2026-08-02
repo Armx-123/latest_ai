@@ -1,5 +1,5 @@
 {
-  "last_id": "RCsBJz4W4bA",
+  "last_id": "OrcBSpADCGk",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -250,12 +250,12 @@
       "updated_at_unix": 1775978429
     },
     "Large Language Model": {
-      "name": "Bonsai 27B",
-      "link": "https://prismml.com/news/bonsai-27b",
-      "reason": "Described as 'The World's First Ternary LLM'.",
-      "source": "https://youtu.be/uQ2Hqg5MZ-8",
-      "date": "2026-07-19",
-      "updated_at_unix": 1784449408
+      "name": "Inkling Small",
+      "link": "https://huggingface.co/thinkingmachines/Inkling-Small",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
     },
     "Image Generation (Fine-tuned Stable Diffusion XL)": {
       "name": "Acestep XL",
@@ -378,12 +378,12 @@
       "updated_at_unix": 1776583486
     },
     "World Model": {
-      "name": "SANA WM",
-      "link": "https://nvlabs.github.io/Sana/WM/",
-      "reason": "A new open-source world model, aligning with the 'open-source world models' highlight in the title.",
-      "source": "https://youtu.be/NnsQj2nDkKA",
-      "date": "2026-05-17",
-      "updated_at_unix": 1779006315
+      "name": "Wonder",
+      "link": "https://wonder-world-model.github.io/",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
     },
     "3D Human Reconstruction": {
       "name": "OmniShow",
@@ -1968,7 +1968,47 @@
       "source": "https://youtu.be/fMaPaK4gcNE",
       "date": "2026-07-26",
       "updated_at_unix": 1785054606
+    },
+    "Video-to-Video": {
+      "name": "ID V2V",
+      "link": "https://eyeline-labs.github.io/ID-V2V/",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
+    },
+    "Image/Video Redesign": {
+      "name": "Redesign",
+      "link": "https://github.com/jintae-00/ReDesign",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
+    },
+    "MoE Framework / AI Architecture": {
+      "name": "Instella",
+      "link": "https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html",
+      "reason": "Described as a 'new open-source MoE framework' by AMD.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
+    },
+    "Vision Model": {
+      "name": "Prism",
+      "link": "https://lsh3163.github.io/prism/",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
+    },
+    "Small Language Model": {
+      "name": "Phi Zero",
+      "link": "https://phi-zero.github.io/",
+      "reason": "Highlighted as a new model in the AI news section.",
+      "source": "https://youtu.be/OrcBSpADCGk",
+      "date": "2026-08-02",
+      "updated_at_unix": 1785659235
     }
   },
-  "last_updated_unix": 1785146240
+  "last_updated_unix": 1785659235
 }
