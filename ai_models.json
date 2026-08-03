@@ -1,5 +1,5 @@
 {
-  "last_id": "OrcBSpADCGk",
+  "last_id": "Vpvne2istKg",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2008,7 +2008,15 @@
       "source": "https://youtu.be/OrcBSpADCGk",
       "date": "2026-08-02",
       "updated_at_unix": 1785659235
+    },
+    "AI Video Generator": {
+      "name": "Minimax",
+      "link": "",
+      "reason": "The video title declares 'New BEST AI video generator is here!' and the description highlights Minimax H3 as one of the 'Top AI video generators' being compared. The timestamp '19:03 Minimax open source' indicates a discussion about an open-source aspect or version of Minimax.",
+      "source": "https://youtu.be/Vpvne2istKg",
+      "date": "2026-08-03",
+      "updated_at_unix": 1785750654
     }
   },
-  "last_updated_unix": 1785659235
+  "last_updated_unix": 1785750654
 }
