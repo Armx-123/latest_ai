@@ -1,5 +1,5 @@
 {
-  "last_id": "8HutJ9W5pTg",
+  "last_id": "uJgzFn0GT7M",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -106,12 +106,12 @@
       "updated_at_unix": 1774768160
     },
     "Large Language Model (LLM)": {
-      "name": "GLM 5.2",
-      "link": "https://unsloth.ai/docs/models/glm-5.2",
-      "reason": "Mentioned as a 'craze' in the title, indicating a significant new development or improvement, and GGUFs are for local, often open-source, deployment.",
-      "source": "https://youtu.be/kkLlzQqa7MY",
-      "date": "2026-06-21",
-      "updated_at_unix": 1782016853
+      "name": "Qwen 3.8 Max",
+      "link": "https://qwen.ai/blog?id=qwen3.8",
+      "reason": "The 'Max' and '3.8' indicate a new, improved version of the Qwen LLM.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
     },
     "Generative AI Model": {
       "name": "Void",
@@ -538,12 +538,12 @@
       "updated_at_unix": 1777623415
     },
     "Generative AI": {
-      "name": "daVinci MagiHuman",
-      "link": "",
-      "reason": "",
-      "source": "https://youtu.be/XJUpuOBpT-4",
-      "date": "2026-05-01",
-      "updated_at_unix": 1777623415
+      "name": "Big Bang",
+      "link": "https://github.com/endless-frontier/BigBang-v1",
+      "reason": "Version 'v1' implies it's a new release.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
     },
     "Audio AI": {
       "name": "PrismAudio",
@@ -746,12 +746,12 @@
       "updated_at_unix": 1778400721
     },
     "3D Generation": {
-      "name": "CDM",
-      "link": "https://byliutao.github.io/cdm_page/",
-      "reason": "New conditional diffusion model for 3D object generation.",
-      "source": "https://youtu.be/quxnhOeRz7I",
-      "date": "2026-05-10",
-      "updated_at_unix": 1778400721
+      "name": "Hunyuan3D Buffalo",
+      "link": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+      "reason": "Version '1.0' implies it's a new release for 3D generation.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
     },
     "AI Dubbing Tool": {
       "name": "Just Dub it",
@@ -1242,12 +1242,12 @@
       "updated_at_unix": 1779962926
     },
     "Robotics": {
-      "name": "LeRobot",
-      "link": null,
-      "reason": null,
-      "source": "https://youtu.be/QvN6Tu6dHYM",
-      "date": "2026-05-28",
-      "updated_at_unix": 1779962926
+      "name": "Xiaomi robotics 1",
+      "link": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-1",
+      "reason": "Version '1' implies it's a new release from Xiaomi Robotics.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
     },
     "Control Systems": {
       "name": "CogOmniControl",
@@ -2016,7 +2016,71 @@
       "source": "https://youtu.be/Vpvne2istKg",
       "date": "2026-08-03",
       "updated_at_unix": 1785750654
+    },
+    "AI Symphony / Music Generation": {
+      "name": "SymphonyGen",
+      "link": "https://symphonygen.github.io/",
+      "reason": "A new AI model for generating symphonies.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "3D Editors / Multi-Agent CAD": {
+      "name": "MAC",
+      "link": "https://github.com/Pan-Chera/Multi-Agent-CAD",
+      "reason": "A multi-agent system for CAD (Computer-Aided Design), mentioned as a new 3D editor.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "AI Animation / Video Generation": {
+      "name": "Wan Animate 2",
+      "link": "https://humanaigc.github.io/wan-animate-2/",
+      "reason": "This is version '2', indicating an updated and improved model for animation.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "Audio / Voice Rendering": {
+      "name": "VocalRender",
+      "link": "https://pymaster17.github.io/VocalRender/",
+      "reason": "An AI model for rendering vocals.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "Talking Head / Avatar Generation": {
+      "name": "LeapTalk",
+      "link": "https://zhangrongxiang.github.io/leaptalk-page/",
+      "reason": "An AI model for generating talking avatars.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "Medical AI / Clinical Data Fusion": {
+      "name": "ClinFusion",
+      "link": "https://github.com/Alibaba-DAMO-Academy/ClinFusion",
+      "reason": "An AI model for clinical data fusion, fitting the 'open medical AI' category.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "Code Generation / Development": {
+      "name": "Muse Spark 1.2",
+      "link": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/",
+      "reason": "Version '1.2' indicates an updated or improved version for code generation.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
+    },
+    "AI Control / Reinforcement Learning": {
+      "name": "Long Horizon Harness",
+      "link": "https://lh-harness.pages.dev",
+      "reason": "A new AI model for long-horizon tasks or control.",
+      "source": "https://youtu.be/uJgzFn0GT7M",
+      "date": "2026-08-09",
+      "updated_at_unix": 1786280152
     }
   },
-  "last_updated_unix": 1785919224
+  "last_updated_unix": 1786280152
 }
