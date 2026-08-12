@@ -1,5 +1,5 @@
 {
-  "last_id": "uJgzFn0GT7M",
+  "last_id": "G3YHSvXZP_g",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2010,12 +2010,12 @@
       "updated_at_unix": 1785659235
     },
     "AI Video Generator": {
-      "name": "Minimax",
-      "link": "",
-      "reason": "The video title declares 'New BEST AI video generator is here!' and the description highlights Minimax H3 as one of the 'Top AI video generators' being compared. The timestamp '19:03 Minimax open source' indicates a discussion about an open-source aspect or version of Minimax.",
-      "source": "https://youtu.be/Vpvne2istKg",
-      "date": "2026-08-03",
-      "updated_at_unix": 1785750654
+      "name": "Minimax H3",
+      "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3/",
+      "reason": "The video title states 'The BEST local AI video generator just got BETTER!' referring to Minimax H3.",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
     },
     "AI Symphony / Music Generation": {
       "name": "SymphonyGen",
@@ -2080,7 +2080,47 @@
       "source": "https://youtu.be/uJgzFn0GT7M",
       "date": "2026-08-09",
       "updated_at_unix": 1786280152
+    },
+    "ComfyUI Workflow": {
+      "name": "Minimax H3 Spectrum",
+      "link": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "reason": "Mentioned as 'New Spectrum' at 01:33, implying an updated or improved version.",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
+    },
+    "ComfyUI Component": {
+      "name": "Minimax H3 Live Preview",
+      "link": "https://huggingface.co/Kijai/MiniMax-H3-TAE",
+      "reason": "",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
+    },
+    "AI Video Generator (Speed Optimized)": {
+      "name": "Minimax H3 Turbo Lora/Models",
+      "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "reason": "Mentioned for 'Turbo speedup' at 08:00, indicating improved performance.",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
+    },
+    "AI Video Generator (Low VRAM Optimized)": {
+      "name": "Minimax H3 Smaller/Experimental Models",
+      "link": "https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main",
+      "reason": "Mentioned 'For lower vram' at 11:39 and 14:55, indicating better suitability for systems with limited VRAM.",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
+    },
+    "AI Video Generator (CPU/Low VRAM Optimized)": {
+      "name": "Minimax H3 GGUF",
+      "link": "https://huggingface.co/unsloth/MiniMax-H3-GGUF",
+      "reason": "GGUF models are typically optimized for CPU inference or very low VRAM, aligning with the 'lower vram' discussion.",
+      "source": "https://youtu.be/G3YHSvXZP_g",
+      "date": "2026-08-12",
+      "updated_at_unix": 1786519677
     }
   },
-  "last_updated_unix": 1786280152
+  "last_updated_unix": 1786519677
 }
