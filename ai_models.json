@@ -1,5 +1,5 @@
 {
-  "last_id": "G3YHSvXZP_g",
+  "last_id": "aUcDyeZgz_k",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2120,7 +2120,23 @@
       "source": "https://youtu.be/G3YHSvXZP_g",
       "date": "2026-08-12",
       "updated_at_unix": 1786519677
+    },
+    "AI Music Generator": {
+      "name": "Minimax Music 3",
+      "link": "https://docs.comfy.org/tutorials/audio/minimax/minimax-music-3",
+      "reason": "Explicitly stated as a 'Free open source AI music generator' and presented as 'The BEST local AI music generator'.",
+      "source": "https://youtu.be/aUcDyeZgz_k",
+      "date": "2026-08-15",
+      "updated_at_unix": 1786797689
+    },
+    "AI Music": {
+      "name": "Acestep XL",
+      "link": "https://youtu.be/QzddQoCKKss",
+      "reason": "Discussed with a tutorial link ('ACE Step tutorial') in the context of other AI music tools, and also mentioned in the 'tracked models' list as 'Acestep XL'. Its inclusion in a video about local and open-source AI tools suggests it is open source.",
+      "source": "https://youtu.be/aUcDyeZgz_k",
+      "date": "2026-08-15",
+      "updated_at_unix": 1786797689
     }
   },
-  "last_updated_unix": 1786519677
+  "last_updated_unix": 1786797689
 }
