@@ -1,5 +1,5 @@
 {
-  "last_id": "62HSUsS0ypo",
+  "last_id": "ZSNMw8U5h-c",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -594,12 +594,12 @@
       "updated_at_unix": 1777623415
     },
     "LLM": {
-      "name": "Qwen 3.8 27B",
-      "link": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "reason": "Mentioned as 'Qwen 3.8' in the title and '27B' indicates a specific new version/size.",
-      "source": "https://youtu.be/62HSUsS0ypo",
-      "date": "2026-08-16",
-      "updated_at_unix": 1786862585
+      "name": "GLM 5.3",
+      "link": "",
+      "reason": "Described as the 'New #1 open source AI' and 'New top open source LLM' in the video title and description.",
+      "source": "https://youtu.be/ZSNMw8U5h-c",
+      "date": "2026-08-17",
+      "updated_at_unix": 1786970942
     },
     "Graphics AI": {
       "name": "Renderer",
@@ -2186,5 +2186,5 @@
       "updated_at_unix": 1786862585
     }
   },
-  "last_updated_unix": 1786862585
+  "last_updated_unix": 1786970942
 }
