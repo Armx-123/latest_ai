@@ -1,5 +1,5 @@
 {
-  "last_id": "ZSNMw8U5h-c",
+  "last_id": "ig3PUfSow5Y",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2010,12 +2010,12 @@
       "updated_at_unix": 1785659235
     },
     "AI Video Generator": {
-      "name": "Minimax H3",
-      "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3/",
-      "reason": "The video title states 'The BEST local AI video generator just got BETTER!' referring to Minimax H3.",
-      "source": "https://youtu.be/G3YHSvXZP_g",
-      "date": "2026-08-12",
-      "updated_at_unix": 1786519677
+      "name": "LTX 2.5",
+      "link": "https://ltx.io/model/ltx-2-5",
+      "reason": "Described as 'The FASTEST local AI video generator' and 'Free open source AI video generator'.",
+      "source": "https://youtu.be/ig3PUfSow5Y",
+      "date": "2026-08-18",
+      "updated_at_unix": 1787057456
     },
     "AI Symphony / Music Generation": {
       "name": "SymphonyGen",
@@ -2186,5 +2186,5 @@
       "updated_at_unix": 1786862585
     }
   },
-  "last_updated_unix": 1786970942
+  "last_updated_unix": 1787057456
 }
