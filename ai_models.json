@@ -1,5 +1,5 @@
 {
-  "last_id": "ig3PUfSow5Y",
+  "last_id": "rQ4yX5qNYdY",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -186,12 +186,12 @@
       "updated_at_unix": 1775373160
     },
     "Multimodal Large Language Model (LLM)": {
-      "name": "Seed 2.1 (Seed-LLaMA)",
-      "link": "https://seed.bytedance.com/en/seed2_1",
-      "reason": "Mentioned as 'Seed 2.1' in the 'HUGE AI news' section, indicating it's a new version of the open-source Seed-LLaMA family of multimodal large language models.",
-      "source": "https://youtu.be/7c_ieWfAbrw",
-      "date": "2026-06-28",
-      "updated_at_unix": 1782619654
+      "name": "SenseNova U1.5",
+      "link": "https://modelscope.ai/models/SenseNova/SenseNova-U1.5-8B-MoT",
+      "reason": "Latest version of a multimodal LLM.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
     },
     "Voice/Audio Generation": {
       "name": "OmniVoice",
@@ -610,12 +610,12 @@
       "updated_at_unix": 1777623415
     },
     "Image Generation": {
-      "name": "PiD Pixel Diffusion",
-      "link": "https://huggingface.co/Comfy-Org/PixelDiT/tree/main/diffusion_models",
-      "reason": "Explicitly stated as 'The BEST AI for 4K images' in the video title and 'Best AI image model for high resolution images' in the description.",
-      "source": "https://youtu.be/DlvhlQOBHBw",
-      "date": "2026-06-02",
-      "updated_at_unix": 1780396937
+      "name": "Bernini v2",
+      "link": "https://huggingface.co/ByteDance/Bernini-Diffusers-v2",
+      "reason": "Latest version of an image generation model.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
     },
     "Spatial AI": {
       "name": "Inspatio World",
@@ -1434,12 +1434,12 @@
       "updated_at_unix": 1780805664
     },
     "Text-to-Speech (TTS)": {
-      "name": "Dots tts",
-      "link": "https://rednote-hilab.github.io/dots.tts-demo/",
-      "reason": "New text-to-speech model mentioned in the video title as 'new TTS'.",
-      "source": "https://youtu.be/SxiRANj0xLs",
-      "date": "2026-06-14",
-      "updated_at_unix": 1781411003
+      "name": "Audio8 TTS 0.1B",
+      "link": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+      "reason": "New, compact Text-to-Speech model.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
     },
     "Real-time 3D Character Conversation / Human-AI Interaction": {
       "name": "StreamChar",
@@ -2184,7 +2184,47 @@
       "source": "https://youtu.be/62HSUsS0ypo",
       "date": "2026-08-16",
       "updated_at_unix": 1786862585
+    },
+    "Real-time World Generation": {
+      "name": "Evoke",
+      "link": "https://evoke-world.github.io/",
+      "reason": "New project for real-time 3D reconstruction and rendering.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
+    },
+    "4D Human Reconstruction": {
+      "name": "4DAnyone",
+      "link": "https://4danyone.github.io/",
+      "reason": "New project for 4D human reconstruction.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
+    },
+    "Video Generation / Motion Synthesis": {
+      "name": "Ornith 1.5",
+      "link": "https://ornith.ai/ornith_1_5.html",
+      "reason": "Latest version of a video generation model.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
+    },
+    "Geospatial / 3D Reconstruction": {
+      "name": "GeoWeaver",
+      "link": "https://kosmoresearch.github.io/GeoWeaver/",
+      "reason": "New project for 3D reconstruction of large-scale outdoor scenes.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
+    },
+    "ComfyUI Workflow / Control": {
+      "name": "Comfy MCP",
+      "link": "https://blog.comfy.org/p/open-sourcing-comfy-mcp-on-local",
+      "reason": "Newly open-sourced Multi-Control-Point model for ComfyUI.",
+      "source": "https://youtu.be/rQ4yX5qNYdY",
+      "date": "2026-08-23",
+      "updated_at_unix": 1787467473
     }
   },
-  "last_updated_unix": 1787057456
+  "last_updated_unix": 1787467473
 }
