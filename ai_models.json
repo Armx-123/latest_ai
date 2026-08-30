@@ -1,5 +1,5 @@
 {
-  "last_id": "rQ4yX5qNYdY",
+  "last_id": "4wjHNgMLeyY",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -426,12 +426,12 @@
       "updated_at_unix": 1777101811
     },
     "Language Model": {
-      "name": "Gemma 4",
-      "link": "",
-      "reason": "Not specified as new best or latest version.",
-      "source": "https://youtu.be/G-oNwbngkt0",
-      "date": "2026-04-25",
-      "updated_at_unix": 1777101811
+      "name": "Qwen 3.8 Flash Next",
+      "link": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "reason": "Latest 'Flash Next' version for improved performance and efficiency.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
     },
     "Rendering Model": {
       "name": "Renderer",
@@ -2224,7 +2224,79 @@
       "source": "https://youtu.be/rQ4yX5qNYdY",
       "date": "2026-08-23",
       "updated_at_unix": 1787467473
+    },
+    "Realtime Minimax / Search Algorithm": {
+      "name": "Minimax FastH3",
+      "link": "https://haoailab.com/blogs/fasth3-preview/",
+      "reason": "New 'FastH3' version for improved speed in realtime Minimax.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Multimodal / Vision Model": {
+      "name": "Hy4",
+      "link": "https://huggingface.co/tencent/Hy4-preview",
+      "reason": "New model release from Tencent.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "3D Generation / Reconstruction": {
+      "name": "Block 3D",
+      "link": "https://alexandertsui.github.io/block3d/",
+      "reason": "New research project for 3D generation and reconstruction.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Video Generation / World Models": {
+      "name": "One Video One World",
+      "link": "https://onevideooneworld.github.io/",
+      "reason": "New research project for video generation and world models.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Code Generation / World Models": {
+      "name": "Code World Model",
+      "link": "https://buaacyw.github.io/cwm/",
+      "reason": "New research project for code generation and world modeling.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Speech / AI Agents": {
+      "name": "VoiceMem",
+      "link": "https://xzf-thu.github.io/VoiceMem/",
+      "reason": "New research project for voice-based memory in AI agents.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "3D Reconstruction / Structure-from-Motion": {
+      "name": "Orbit",
+      "link": "https://orbit-sfm.github.io/",
+      "reason": "New research project for 3D reconstruction.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Diffusion Models / Image Generation": {
+      "name": "DiffusionOPSD",
+      "link": "https://diffusionopsd.github.io/",
+      "reason": "New research project on diffusion models.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
+    },
+    "Image Generation / Diffusion": {
+      "name": "Fibo 1.5",
+      "link": "https://huggingface.co/briaai/Fibo-1.5",
+      "reason": "Version 1.5 update for the Fibo image generation model.",
+      "source": "https://youtu.be/4wjHNgMLeyY",
+      "date": "2026-08-30",
+      "updated_at_unix": 1788063938
     }
   },
-  "last_updated_unix": 1787467473
+  "last_updated_unix": 1788063938
 }
