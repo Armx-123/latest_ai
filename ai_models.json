@@ -1,5 +1,5 @@
 {
-  "last_id": "4wjHNgMLeyY",
+  "last_id": "RmlP_nqOhsk",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2296,7 +2296,55 @@
       "source": "https://youtu.be/4wjHNgMLeyY",
       "date": "2026-08-30",
       "updated_at_unix": 1788063938
+    },
+    "LLM / Multimodal": {
+      "name": "GLM 5.3",
+      "link": "https://youtu.be/ZSNMw8U5h-c",
+      "reason": "Not stated as a new 'best' or 'latest version' in the context of other models.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
+    },
+    "General AI Model": {
+      "name": "SenseNova U1.5",
+      "link": "",
+      "reason": "Not stated as a new 'best' or 'latest version'.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
+    },
+    "Translation / LLM": {
+      "name": "Qwen live translate",
+      "link": "",
+      "reason": "Not stated as a new 'best' or 'latest version'.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
+    },
+    "Music Generation / Realtime AI": {
+      "name": "Magenta Realtime 2",
+      "link": "",
+      "reason": "Not stated as a new 'best' or 'latest version'.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
+    },
+    "Image Generation / Diffusion Model": {
+      "name": "DiffusionGemma",
+      "link": "",
+      "reason": "Not stated as a new 'best' or 'latest version'.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
+    },
+    "LLM / Code Model": {
+      "name": "Deepseek harness",
+      "link": "",
+      "reason": "Not stated as a new 'best' or 'latest version'.",
+      "source": "https://youtu.be/RmlP_nqOhsk",
+      "date": "2026-09-03",
+      "updated_at_unix": 1788432820
     }
   },
-  "last_updated_unix": 1788063938
+  "last_updated_unix": 1788432820
 }
