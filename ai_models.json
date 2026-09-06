@@ -1,5 +1,5 @@
 {
-  "last_id": "RmlP_nqOhsk",
+  "last_id": "ngyFRCNq0Yc",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -378,12 +378,12 @@
       "updated_at_unix": 1776583486
     },
     "World Model": {
-      "name": "Wonder",
-      "link": "https://wonder-world-model.github.io/",
-      "reason": "Highlighted as a new model in the AI news section.",
-      "source": "https://youtu.be/OrcBSpADCGk",
-      "date": "2026-08-02",
-      "updated_at_unix": 1785659235
+      "name": "SolarWM",
+      "link": "https://junchao-cs.github.io/SolarWM-Web/?utm_source=chatgpt.com",
+      "reason": "New world model discussed as part of 'new world models' trend.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "3D Human Reconstruction": {
       "name": "OmniShow",
@@ -418,20 +418,20 @@
       "updated_at_unix": 1777101811
     },
     "Video Model": {
-      "name": "Video to World",
-      "link": "",
-      "reason": "Not specified as new best or latest version.",
-      "source": "https://youtu.be/G-oNwbngkt0",
-      "date": "2026-04-25",
-      "updated_at_unix": 1777101811
+      "name": "VideoDeltaNet",
+      "link": "https://openvdn.github.io/",
+      "reason": "New video model with ComfyUI integration for enhanced video processing.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "Language Model": {
-      "name": "Qwen 3.8 Flash Next",
-      "link": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-      "reason": "Latest 'Flash Next' version for improved performance and efficiency.",
-      "source": "https://youtu.be/4wjHNgMLeyY",
-      "date": "2026-08-30",
-      "updated_at_unix": 1788063938
+      "name": "Qwen 3.8 0902",
+      "link": "https://www.qwencloud.com/models/qwen3.8-max-0902",
+      "reason": "New version of the Qwen language model, indicating updates and improvements.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "Rendering Model": {
       "name": "Renderer",
@@ -610,12 +610,12 @@
       "updated_at_unix": 1777623415
     },
     "Image Generation": {
-      "name": "Bernini v2",
-      "link": "https://huggingface.co/ByteDance/Bernini-Diffusers-v2",
-      "reason": "Latest version of an image generation model.",
-      "source": "https://youtu.be/rQ4yX5qNYdY",
-      "date": "2026-08-23",
-      "updated_at_unix": 1787467473
+      "name": "LLaDA image",
+      "link": "https://github.com/inclusionAI/LLaDA-Image",
+      "reason": "New image generation model for various image tasks.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "Spatial AI": {
       "name": "Inspatio World",
@@ -1994,12 +1994,12 @@
       "updated_at_unix": 1785659235
     },
     "Vision Model": {
-      "name": "Prism",
-      "link": "https://lsh3163.github.io/prism/",
-      "reason": "Highlighted as a new model in the AI news section.",
-      "source": "https://youtu.be/OrcBSpADCGk",
-      "date": "2026-08-02",
-      "updated_at_unix": 1785659235
+      "name": "Deepseek v4 flash vision",
+      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp/tree/main",
+      "reason": "Latest version of Deepseek's flash vision model, implying improved performance or speed.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "Small Language Model": {
       "name": "Phi Zero",
@@ -2306,12 +2306,12 @@
       "updated_at_unix": 1788432820
     },
     "General AI Model": {
-      "name": "SenseNova U1.5",
-      "link": "",
-      "reason": "Not stated as a new 'best' or 'latest version'.",
-      "source": "https://youtu.be/RmlP_nqOhsk",
-      "date": "2026-09-03",
-      "updated_at_unix": 1788432820
+      "name": "Lucida",
+      "link": "https://lucida-r2s.github.io/",
+      "reason": "New model mentioned in the video's discussion of AI advancements.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     },
     "Translation / LLM": {
       "name": "Qwen live translate",
@@ -2344,7 +2344,23 @@
       "source": "https://youtu.be/RmlP_nqOhsk",
       "date": "2026-09-03",
       "updated_at_unix": 1788432820
+    },
+    "Multimodal Model": {
+      "name": "Intern Lumina U2",
+      "link": "https://internlm.github.io/InternLumina-U2/",
+      "reason": "New version of Intern Lumina, suggesting advancements in multimodal capabilities.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
+    },
+    "Video Animation": {
+      "name": "Viggle Animate",
+      "link": "https://huggingface.co/Viggle/Viggle-Animate",
+      "reason": "New model for animating images into video, offering new creative possibilities.",
+      "source": "https://youtu.be/ngyFRCNq0Yc",
+      "date": "2026-09-06",
+      "updated_at_unix": 1788665823
     }
   },
-  "last_updated_unix": 1788432820
+  "last_updated_unix": 1788665823
 }
