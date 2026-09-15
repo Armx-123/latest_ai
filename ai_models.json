@@ -1,5 +1,5 @@
 {
-  "last_id": "nZYJdwM-_nI",
+  "last_id": "9RtywbN--QE",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2122,12 +2122,12 @@
       "updated_at_unix": 1786519677
     },
     "AI Music Generator": {
-      "name": "Minimax Music 3",
-      "link": "https://docs.comfy.org/tutorials/audio/minimax/minimax-music-3",
-      "reason": "Explicitly stated as a 'Free open source AI music generator' and presented as 'The BEST local AI music generator'.",
-      "source": "https://youtu.be/aUcDyeZgz_k",
-      "date": "2026-08-15",
-      "updated_at_unix": 1786797689
+      "name": "YuE2",
+      "link": "https://github.com/multimodal-art-projection/YuE",
+      "reason": "Explicitly stated as 'New BEST local AI music generator is here!' in the video title and 'Best AI music generator and editor' in the description.",
+      "source": "https://youtu.be/9RtywbN--QE",
+      "date": "2026-09-15",
+      "updated_at_unix": 1789471258
     },
     "AI Music": {
       "name": "Acestep XL",
@@ -2362,5 +2362,5 @@
       "updated_at_unix": 1788665823
     }
   },
-  "last_updated_unix": 1789298382
+  "last_updated_unix": 1789471258
 }
