@@ -1,5 +1,5 @@
 {
-  "last_id": "9RtywbN--QE",
+  "last_id": "MImgH4KMtj8",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -594,12 +594,12 @@
       "updated_at_unix": 1777623415
     },
     "LLM": {
-      "name": "GLM 5.3",
-      "link": "",
-      "reason": "Described as the 'New #1 open source AI' and 'New top open source LLM' in the video title and description.",
-      "source": "https://youtu.be/ZSNMw8U5h-c",
-      "date": "2026-08-17",
-      "updated_at_unix": 1786970942
+      "name": "Deepseek V4.1 Flash",
+      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf",
+      "reason": "The video title 'Deepseek just did the impossible' and the detailed explanation of its technical advancements (e.g., prefill/decode, cache compression, frontier performance) present it as a significant breakthrough and a leading model in its category.",
+      "source": "https://youtu.be/MImgH4KMtj8",
+      "date": "2026-09-18",
+      "updated_at_unix": 1789728469
     },
     "Graphics AI": {
       "name": "Renderer",
@@ -2360,7 +2360,15 @@
       "source": "https://youtu.be/ngyFRCNq0Yc",
       "date": "2026-09-06",
       "updated_at_unix": 1788665823
+    },
+    "AI Architecture/Framework": {
+      "name": "DSpark",
+      "link": "https://youtu.be/J0D7qV3nl7w",
+      "reason": "Discussed as a related concept or technology for efficiency, but not explicitly positioned as a 'better' model itself.",
+      "source": "https://youtu.be/MImgH4KMtj8",
+      "date": "2026-09-18",
+      "updated_at_unix": 1789728469
     }
   },
-  "last_updated_unix": 1789471258
+  "last_updated_unix": 1789728469
 }
