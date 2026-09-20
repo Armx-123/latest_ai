@@ -1,5 +1,5 @@
 {
-  "last_id": "MImgH4KMtj8",
+  "last_id": "hygMRgnDD7w",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -250,12 +250,12 @@
       "updated_at_unix": 1775978429
     },
     "Large Language Model": {
-      "name": "Inkling Small",
-      "link": "https://huggingface.co/thinkingmachines/Inkling-Small",
-      "reason": "Highlighted as a new model in the AI news section.",
-      "source": "https://youtu.be/OrcBSpADCGk",
-      "date": "2026-08-02",
-      "updated_at_unix": 1785659235
+      "name": "Qwen 3.8 Omni Flash",
+      "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "reason": "New version (3.8) with 'Omni Flash' capabilities.",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
     },
     "Image Generation (Fine-tuned Stable Diffusion XL)": {
       "name": "Acestep XL",
@@ -2368,7 +2368,55 @@
       "source": "https://youtu.be/MImgH4KMtj8",
       "date": "2026-09-18",
       "updated_at_unix": 1789728469
+    },
+    "Video/Animation": {
+      "name": "Meridian",
+      "link": "https://huggingface.co/Viggle/Meridian",
+      "reason": "",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
+    },
+    "Large Language Model / Translation": {
+      "name": "Qwen 3.8 Live Translate",
+      "link": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+      "reason": "New version (3.8) with new 'Live Translate' capability.",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
+    },
+    "Reinforcement Learning / Policy Learning": {
+      "name": "GPT-Policy",
+      "link": "https://cheng-haha.github.io/GPT-Policy/",
+      "reason": "",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
+    },
+    "Code Generation": {
+      "name": "Minimax code",
+      "link": "https://github.com/MiniMax-AI/minimax-code",
+      "reason": "",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
+    },
+    "Large Language Model / Efficient AI": {
+      "name": "Bonsai 2 27B",
+      "link": "https://prismml.com/news/bonsai-2-27b",
+      "reason": "New version ('2') and described as 'A New Era for Efficient AI'.",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
+    },
+    "General AI / World Model": {
+      "name": "ZGCM-1",
+      "link": "https://github.com/zgcagi/ZGCM-1",
+      "reason": "",
+      "source": "https://youtu.be/hygMRgnDD7w",
+      "date": "2026-09-20",
+      "updated_at_unix": 1789901660
     }
   },
-  "last_updated_unix": 1789728469
+  "last_updated_unix": 1789901660
 }
