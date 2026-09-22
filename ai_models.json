@@ -1,5 +1,5 @@
 {
-  "last_id": "hygMRgnDD7w",
+  "last_id": "BaE6UBfNdQk",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2416,7 +2416,15 @@
       "source": "https://youtu.be/hygMRgnDD7w",
       "date": "2026-09-20",
       "updated_at_unix": 1789901660
+    },
+    "AI Image Editor / AI Image Generator": {
+      "name": "Qwen Image 2.1",
+      "link": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "reason": "New best local AI image editor, Best free open-source AI image generator",
+      "source": "https://youtu.be/BaE6UBfNdQk",
+      "date": "2026-09-22",
+      "updated_at_unix": 1790075481
     }
   },
-  "last_updated_unix": 1789901660
+  "last_updated_unix": 1790075481
 }
