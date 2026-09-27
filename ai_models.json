@@ -1,5 +1,5 @@
 {
-  "last_id": "gX0L0aFA2xg",
+  "last_id": "nX0fgBL3sIM",
   "categories": {
     "Image Restoration": {
       "name": "Real Restorer",
@@ -2424,7 +2424,31 @@
       "source": "https://youtu.be/BaE6UBfNdQk",
       "date": "2026-09-22",
       "updated_at_unix": 1790075481
+    },
+    "Creative AI": {
+      "name": "OpenMuse",
+      "link": "https://github.com/CopilotKit/OpenMuse",
+      "reason": "No claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/nX0fgBL3sIM",
+      "date": "2026-09-27",
+      "updated_at_unix": 1790509222
+    },
+    "Embedding Model": {
+      "name": "Ovis Embedding",
+      "link": "https://huggingface.co/collections/ATH-MaaS/ovis-embedding",
+      "reason": "No claim of being 'best' or 'latest version' in the provided text.",
+      "source": "https://youtu.be/nX0fgBL3sIM",
+      "date": "2026-09-27",
+      "updated_at_unix": 1790509222
+    },
+    "AI Security": {
+      "name": "Aikido Altar",
+      "link": "https://www.aikido.dev/blog/aikido-altar-open-weight-ai-sovereign-security",
+      "reason": "No claim of being 'best' or 'latest version' in the provided text. Mentioned as 'open-weight AI'.",
+      "source": "https://youtu.be/nX0fgBL3sIM",
+      "date": "2026-09-27",
+      "updated_at_unix": 1790509222
     }
   },
-  "last_updated_unix": 1790248873
+  "last_updated_unix": 1790509222
 }
